@@ -46,10 +46,11 @@
 
 ## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kartik-012&theme=algolia&no-frame=true&no-bg=true&margin-w=15&row=2&column=4"/>
-</p>
+<h2 align="center">🏆 GitHub Trophies</h2>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kartik-012&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"/>
+</p>
 ---
 
 ## 📈 Contribution Graph
