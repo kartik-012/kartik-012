@@ -14,7 +14,7 @@
 - 🎓 I'm currently pursuing **B.E. in AI & Machine Learning**
 - 🚀 I'm currently building **AI-powered Full Stack Applications**
 - 🌱 I'm currently learning **LLMs, RAG, AI Agents & Cloud**
-- 💬 Ask me about **Python, React, FastAPI, AI & ML**
+- 💬 Ask me about **Python, React, FastAPI, AI & ML, SQL**
 - 🤝 I'm looking to collaborate on **Open Source AI Projects**
 - 📫 Reach me at **kartikraikar2005@gmail.com**
 - ⚡ Fun Fact: **I love turning ideas into AI products.**
