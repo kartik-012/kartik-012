@@ -20,7 +20,6 @@
 - ⚡ Fun Fact: **I love turning ideas into AI products.**
 
 
-
 ## 🌐 Connect With Me
 
 <p align="center">
