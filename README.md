@@ -72,15 +72,6 @@
   <img width="49%" src="https://streak-stats.demolab.com?user=kartik-012&theme=github-dark-blue&hide_border=true"/>
 </p>
 
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kartik-012/kartik-012/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
-</p>
-
----
 
 ## 📈 Contribution Graph
 
