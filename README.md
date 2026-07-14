@@ -4,6 +4,7 @@
  AI & ML Student | 🚀 AI Enthusiast from India
 </h3>
 
+
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3300&pause=900&color=2563EB&center=true&vCenter=true&width=950&lines=Building+the+Future+with+Artificial+Intelligence;Full+Stack+Development+Meets+Machine+Learning;From+Ideas+to+Production-Ready+Solutions"/>
 </p>
