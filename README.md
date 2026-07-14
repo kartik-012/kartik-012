@@ -72,7 +72,6 @@
   <img width="49%" src="https://streak-stats.demolab.com?user=kartik-012&theme=github-dark-blue&hide_border=true"/>
 </p>
 
-
 ## 📈 Contribution Graph
 
 <p align="center">
