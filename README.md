@@ -2,7 +2,7 @@
 
 
 <h3 align="center">
- AI & ML Student | 🚀 AI Enthusiast from India
+ AI & ML Student  |  AI Enthusiast from India
 </h3>
 
 
