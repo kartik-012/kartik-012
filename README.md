@@ -81,7 +81,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kartik-012&theme=github-dark&hide_border=true&area=true"/>
 </p>
 
-
 ## 👀 Profile Views
 
 <p align="center">
