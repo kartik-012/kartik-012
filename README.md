@@ -1,8 +1,14 @@
-<h1 align="center"> Hi, I'm Kartik Raikar</h1>
+<h1 align="center">
+Hi 👋 I'm Kartik Raikar
+</h1>
 
-<h3 align="center"> 
- AI & ML Student  |  AI Enthusiast from Indian
+<h3 align="center">
+AI Engineer • Full Stack Developer • Building Production AI Applications
 </h3>
+
+<p align="center">
+Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Modern Web Technologies.
+</p>
  
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3300&pause=900&color=2563EB&center=true&vCenter=true&width=950&lines=Building+the+Future+with+Artificial+Intelligence;Full+Stack+Development+Meets+Machine+Learning;From+Ideas+to+Production-Ready+Solutions"/>
