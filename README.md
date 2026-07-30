@@ -42,18 +42,18 @@ kartikraikar2005@gmail.com
 
 <br><br>
 ## 🌐 Connect With Me
-<p align="center">
+<p align="center"> 
 <a href="https://github.com/kartik-012">
 <img src="https://skillicons.dev/icons?i=github"/>
-</a>
+</a> &nbsp;&nbsp;
 
 <a href="https://linkedin.com/in/kartik-raikar-kr">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
+</a>&nbsp;&nbsp;
 
 <a href="mailto:kartikraikar2005@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
+</a>&nbsp;&nbsp;
 </p>
 
 # 💻 Tech Stack:
