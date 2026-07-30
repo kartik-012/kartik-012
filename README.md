@@ -79,12 +79,4 @@ Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Mo
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kartik-012&theme=github-dark&hide_border=true&area=true"/>
 </p>
 
-## 👀 Profile Views
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kartik-012&style=for-the-badge&color=0e75b6"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:0B1F33,50:123458,100:1E3A5F"/>
-</p>
