@@ -26,23 +26,18 @@ Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Mo
 
 
 ## 🌐 Connect With Me
-
 <p align="center">
-
-<a href="www.linkedin.com/in/kartik-raikar-kr">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
- 
+<a href="https://github.com/kartik-012">
+<img src="https://skillicons.dev/icons?i=github"/>
 </a>
 
-<a href="https://instagram.com/kartik____.12">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram"/>
-
+<a href="https://linkedin.com/in/kartik-raikar-kr">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
 <a href="mailto:kartikraikar2005@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
-
 </p>
 
 # 💻 Tech Stack:
