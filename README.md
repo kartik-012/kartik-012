@@ -14,15 +14,30 @@ Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Mo
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3300&pause=900&color=2563EB&center=true&vCenter=true&width=950&lines=Building+the+Future+with+Artificial+Intelligence;Full+Stack+Development+Meets+Machine+Learning;From+Ideas+to+Production-Ready+Solutions"/>
 </p>
 
-### 🙋 About Me
+### 🚀 About Me
 
-- 🎓 I'm currently pursuing **B.E. in AI & Machine Learning**
-- 🚀 I'm currently building **AI-powered Full Stack Applications**
-- 🌱 I'm currently learning **LLMs, RAG, AI Agents & Cloud**
-- 💬 Ask me about **Python, React, FastAPI, AI & ML, SQL**
-- 🤝 I'm looking to collaborate on **Open Source AI Projects**
-- 📫 Reach me at **kartikraikar2005@gmail.com**
-- ⚡ Fun Fact: **I love turning ideas into AI products.**
+🎓 B.E. in Artificial Intelligence & Machine Learning
+
+💡 Passionate about building AI products that solve real-world problems.
+
+🧠 Currently exploring
+
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- AI Agents
+- Machine Learning
+- MLOps
+- Cloud Deployment
+
+⚙️ Tech Interests
+
+- AI Engineering
+- Backend Development
+- Full Stack AI Applications
+- Open Source
+
+📫 Email:
+kartikraikar2005@gmail.com
 
 
 ## 🌐 Connect With Me
