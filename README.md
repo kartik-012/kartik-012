@@ -40,7 +40,7 @@ Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Mo
 📫 Email:
 kartikraikar2005@gmail.com
 
-
+<br><br>
 ## 🌐 Connect With Me
 <p align="center">
 <a href="https://github.com/kartik-012">
