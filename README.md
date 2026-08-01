@@ -5,7 +5,7 @@ Hi 👋 I'm Kartik Raikar
 <h3 align="center"> 
 AI Engineer • Full Stack Developer • Building Production AI Applications
 </h3>
-
+ 
 <p align="center">
 Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Modern Web Technologies.
 </p>
