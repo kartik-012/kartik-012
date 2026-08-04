@@ -19,7 +19,7 @@ Building intelligent software powered by
 
 </p>
 
----
+
 
 <p align="center">
 
