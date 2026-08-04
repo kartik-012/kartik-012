@@ -148,7 +148,7 @@ I enjoy building scalable software that combines:
 </a>
 
 </p>
----
+
 
 # 📫 Contact
 
