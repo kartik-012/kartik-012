@@ -35,7 +35,7 @@ Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Mo
 - Backend Development
 - Full Stack AI Applications
 - Open Source
-
+ 
 📫 Email:
 kartikraikar2005@gmail.com
 
