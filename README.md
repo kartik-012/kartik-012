@@ -1,59 +1,187 @@
+<!-- ===================================================== -->
+<!--                    HERO SECTION                       -->
+<!-- ===================================================== -->
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,30:1E3A8A,70:2563EB,100:60A5FA&text=Kartik%20Raikar&fontSize=55&fontAlignY=40&fontColor=ffffff&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Building%20Production%20AI%20Applications&descAlignY=60&animation=fade"/>
+</p>
+
 <h1 align="center">
-Hi 👋 I'm Kartik Raikar  
-</h1>  
-   
-<h3 align="center">  
-AI Engineer • Full Stack Developer • Building Production AI Applications
-</h3> 
-  
-<p align="center">
-Building intelligent software with LLMs, RAG, AI Agents, Machine Learning and Modern Web Technologies.
-</p>
+Hi 👋 I'm Kartik Raikar
+</h1>
+
+<h3 align="center">
+AI Engineer • Full Stack Developer • Passionate about Artificial Intelligence
+</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3300&pause=900&color=2563EB&center=true&vCenter=true&width=950&lines=Building+the+Future+with+Artificial+Intelligence;Full+Stack+Development+Meets+Machine+Learning;From+Ideas+to+Production-Ready+Solutions"/>
+
+Building intelligent software powered by
+
+<b>Large Language Models, AI Agents, Retrieval-Augmented Generation, Machine Learning, Cloud Computing and Modern Web Technologies.</b>
+
 </p>
 
-### 🚀 About Me
+---
 
-🎓 B.E. in Artificial Intelligence & Machine Learning
+<p align="center">
 
-💡 Passionate about building AI products that solve real-world problems.
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=25&duration=3500&pause=900&color=2563EB&center=true&vCenter=true&width=900&lines=Building+the+Future+with+Artificial+Intelligence;Developing+Production-Ready+AI+Applications;LLMs+%7C+AI+Agents+%7C+RAG+%7C+Machine+Learning;Full+Stack+Developer+%2B+AI+Engineer"/>
 
-🧠 Currently exploring
+</p>
 
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- AI Agents
-- Machine Learning
-- MLOps
-- Cloud Deployment
+---
 
-⚙️ Tech Interests
+<p align="center">
 
-- AI Engineering
-- Backend Development
-- Full Stack AI Applications
-- Open Source
- 
-📫 Email:
-kartikraikar2005@gmail.com
+<a href="https://atlas-ai-resume.vercel.app">
+<img src="https://img.shields.io/badge/🌐 Portfolio-Visit Website-2563EB?style=for-the-badge"/>
+</a>
 
-<br><br>
-## 🌐 Connect With Me
-<p align="center"> 
 <a href="https://github.com/kartik-012">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a> &nbsp;&nbsp;
+<img src="https://img.shields.io/badge/GitHub-kartik--012-181717?style=for-the-badge&logo=github"/>
+</a>
 
 <a href="https://linkedin.com/in/kartik-raikar-kr">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/LinkedIn-Kartik Raikar-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+![](https://komarev.com/ghpvc/?username=kartik-012&style=for-the-badge)
+
+![](https://img.shields.io/github/followers/kartik-012?style=for-the-badge)
+
+![](https://img.shields.io/github/stars/kartik-012?style=for-the-badge)
+
+</p>
+
+---
+
+# 🚀 About Me
+
+🎓 **Bachelor of Engineering (B.E.)**
+Artificial Intelligence & Machine Learning
+
+💡 Passionate about designing AI-powered applications that solve real-world problems using modern technologies.
+
+I enjoy building scalable software that combines:
+
+- 🤖 Artificial Intelligence
+- 🧠 Large Language Models
+- 📚 Retrieval-Augmented Generation (RAG)
+- ⚡ AI Agents
+- 🌐 Full Stack Development
+- ☁ Cloud Infrastructure
+
+---
+
+# 🎯 Current Focus
+
+- 🤖 AI Agents
+- 🧠 LLM Applications
+- 📚 Retrieval-Augmented Generation
+- ⚡ Full Stack AI Development
+- ☁ Cloud Deployment
+- 🐳 Docker
+- ☸ Kubernetes
+- 🚀 MLOps
+
+---
+
+# 🌱 Currently Learning
+
+- Advanced Prompt Engineering
+- AI Agent Frameworks
+- LangGraph
+- LangChain
+- Model Context Protocol (MCP)
+- Vector Databases
+- Kubernetes
+- Cloud Architecture
+- CI/CD Pipelines
+- Distributed Systems
+
+---
+
+# 💼 Looking For
+
+✔ AI Engineering Opportunities
+
+✔ Software Development Roles
+
+✔ Open Source Contributions
+
+✔ Internship Opportunities
+
+✔ AI Research Projects
+
+✔ Collaboration on Innovative AI Products
+
+---
+
+# 🌍 Connect With Me
+
+<p align="center">
 
 <a href="mailto:kartikraikar2005@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
-</a>&nbsp;&nbsp;
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://linkedin.com/in/kartik-raikar-kr">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/kartik-012">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
 </p>
+
+---
+
+# 📫 Contact
+
+📧 **Email**
+
+```
+kartikraikar2005@gmail.com
+```
+
+🌐 **Portfolio**
+
+```
+https://atlas-ai-resume.vercel.app
+```
+
+💼 **LinkedIn**
+
+```
+linkedin.com/in/kartik-raikar-kr
+```
+
+🐙 **GitHub**
+
+```
+github.com/kartik-012
+```
+
+---
+
+# 💬 Quote
+
+> **"Building AI that doesn't just answer questions—but solves real-world problems."**
+
+---
+
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white)
