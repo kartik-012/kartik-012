@@ -124,28 +124,30 @@ I enjoy building scalable software that combines:
 
 ---
 
-# 🌍 Connect With Me
+## 🌐 Let's Connect
 
 <p align="center">
 
 <a href="mailto:kartikraikar2005@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
+<img src="https://skillicons.dev/icons?i=gmail" width="55"/>
 </a>
-
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://linkedin.com/in/kartik-raikar-kr">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
+<img src="https://skillicons.dev/icons?i=linkedin" width="55"/>
 </a>
-
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://github.com/kartik-012">
-<img src="https://skillicons.dev/icons?i=github"/>
+<img src="https://skillicons.dev/icons?i=github" width="55"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="https://atlas-ai-resume.vercel.app">
+<img src="https://img.icons8.com/fluency/96/domain.png" width="55"/>
 </a>
 
 </p>
-
 ---
 
 # 📫 Contact
