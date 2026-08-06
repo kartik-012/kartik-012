@@ -196,9 +196,7 @@ github.com/kartik-012
 <i>🚀 Consistency beats intensity.</i>
 </p>
 
-<p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kartik-012&theme=github_dark"/>
-</p>
+
 
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kartik-012&theme=github_dark"/>
