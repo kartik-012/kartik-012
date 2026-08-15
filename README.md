@@ -30,10 +30,6 @@ Building intelligent software powered by
 
 <p align="center">
 
-<a href="https://atlas-ai-resume.vercel.app">
-<img src="https://img.shields.io/badge/🌐 Portfolio-Visit Website-2563EB?style=for-the-badge"/>
-</a>
-
 <a href="https://github.com/kartik-012">
 <img src="https://img.shields.io/badge/GitHub-kartik--012-181717?style=for-the-badge&logo=github"/>
 </a>
