@@ -135,7 +135,7 @@ I enjoy building scalable software that combines:
 </a>
 &nbsp;&nbsp;&nbsp;
 
-<a href="https://atlas-ai-resume.vercel.app">
+<a href="https://kartikportfolio-eta.vercel.app/">
 <img src="https://img.icons8.com/fluency/96/domain.png" width="55"/>
 </a>
 
