@@ -20,7 +20,6 @@ Building intelligent software powered by
 </p>
 
 
-
 <p align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=25&duration=3500&pause=900&color=2563EB&center=true&vCenter=true&width=900&lines=Building+the+Future+with+Artificial+Intelligence;Developing+Production-Ready+AI+Applications;LLMs+%7C+AI+Agents+%7C+RAG+%7C+Machine+Learning;Full+Stack+Developer+%2B+AI+Engineer"/>
