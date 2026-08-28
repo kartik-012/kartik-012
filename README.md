@@ -76,7 +76,7 @@ My interests sit at the intersection of:
 
 I enjoy taking an idea from **architecture → implementation → deployment** and turning it into software that can actually be used.
 
----
+
 
 # 🚀 What I'm Building
 
