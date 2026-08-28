@@ -142,7 +142,7 @@ A production-oriented AI memory architecture designed around:
 
 > **Goal:** Build AI systems capable of maintaining useful long-term context.
 
----
+
 
 ## 🧪 RagaAI Catalyst — LLM Evaluation Platform
 
