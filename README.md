@@ -1,197 +1,346 @@
-<!-- ===================================================== -->
-<!--                    HERO SECTION                       --> 
-<!-- ===================================================== -->  
-           
-<p align="center">  
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,30:1E3A8A,70:2563EB,100:60A5FA&text=Kartik%20Raikar&fontSize=55&fontAlignY=40&fontColor=ffffff&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Building%20Production%20AI%20Applications&descAlignY=60&animation=fade"/>
-</p>
-<h1 align="center"> 
-Hi 👋 I'm Kartik Raikar
-</h1>
-<h3 align="center">
-AI Engineer • Full Stack Developer • Passionate about Artificial Intelligence
-</h3>
+<!-- ========================================================= -->
 
-<p align="center">
-Building intelligent software powered by
+<!--                     HERO SECTION                          -->
 
-<b>Large Language Models, AI Agents, Retrieval-Augmented Generation, Machine Learning, Cloud Computing and Modern Web Technologies.</b>
+<!-- ========================================================= -->
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0F172A,75:1D4ED8,100:3B82F6&text=Kartik%20Raikar&fontSize=55&fontAlignY=38&fontColor=ffffff&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Building%20Production-Ready%20AI%20Systems&descAlignY=62&descSize=18&animation=fade"/>
+
+<h1>Hi 👋, I'm Kartik Raikar</h1>
+
+<h3>AI Engineer • Full-Stack Developer • Generative AI Builder</h3>
+
+<p>
+  <b>Building intelligent software that connects AI, backend engineering,
+  data, and modern user experiences.</b>
 </p>
 
+<br/>
 
-<p align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=25&duration=3500&pause=900&color=2563EB&center=true&vCenter=true&width=900&lines=Building+the+Future+with+Artificial+Intelligence;Developing+Production-Ready+AI+Applications;LLMs+%7C+AI+Agents+%7C+RAG+%7C+Machine+Learning;Full+Stack+Developer+%2B+AI+Engineer"/>
-
-</p>
-
-
-
-<p align="center">
+<a href="https://kartikportfolio-eta.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20Website-2563EB?style=for-the-badge"/>
+</a>
 
 <a href="https://github.com/kartik-012">
-<img src="https://img.shields.io/badge/GitHub-kartik--012-181717?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/GitHub-kartik--012-111827?style=for-the-badge&logo=github"/>
 </a>
 
 <a href="https://linkedin.com/in/kartik-raikar-kr">
-<img src="https://img.shields.io/badge/LinkedIn-Kartik Raikar-0A66C2?style=for-the-badge&logo=linkedin"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Kartik%20Raikar-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
-</p>
+<br/><br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=850&lines=Building+Production-Ready+AI+Applications;LLMs+%7C+RAG+%7C+AI+Agents+%7C+Machine+Learning;Designing+Scalable+AI+Systems;Turning+Ideas+Into+Real+Software"/>
+
+</div>
 
 ---
+
+<!-- ========================================================= -->
+
+<!--                    PROFILE METRICS                         -->
+
+<!-- ========================================================= -->
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=kartik-012&style=for-the-badge&color=2563EB"/>
+
+<img src="https://img.shields.io/github/followers/kartik-012?style=for-the-badge&label=Followers&color=1D4ED8"/>
+
+<img src="https://img.shields.io/github/stars/kartik-012?style=for-the-badge&label=Stars&color=0F172A"/>
+
+</div>
+
+<br/>
+
+---
+
+# 👨‍💻 About Me
+
+I'm a **B.E. Artificial Intelligence & Machine Learning student** focused on building practical and production-oriented AI systems.
+
+My interests sit at the intersection of:
+
+* 🤖 Artificial Intelligence
+* 🧠 Large Language Models
+* 📚 Retrieval-Augmented Generation
+* ⚡ AI Agents
+* 🧪 Machine Learning
+* 🌐 Full-Stack Development
+* 🏗️ Backend & API Engineering
+* ☁️ Cloud & Infrastructure
+* 📊 Data & Analytics
+
+I enjoy taking an idea from **architecture → implementation → deployment** and turning it into software that can actually be used.
+
+---
+
+# 🚀 What I'm Building
+
+```text
+AI Applications
+      ↓
+LLMs + RAG + Agents
+      ↓
+Backend APIs
+      ↓
+Databases + Vector Search
+      ↓
+Frontend Experiences
+      ↓
+Docker + Cloud
+      ↓
+Production
+```
+
+My current focus is on building AI systems that are:
+
+**Reliable • Scalable • Evaluatable • Secure • Production-Ready**
+
+---
+
+# 🧠 Core AI Interests
+
+<div align="center">
+
+| Area             | Focus                            |
+| ---------------- | -------------------------------- |
+| 🤖 Generative AI | LLM Applications                 |
+| 📚 RAG           | Retrieval + Semantic Search      |
+| ⚡ AI Agents      | Tool Calling + Agentic Workflows |
+| 🧠 NLP           | Transformers + Language Models   |
+| 🧪 ML            | Model Training + Evaluation      |
+| 🔎 Vector Search | Embeddings + Vector Databases    |
+| 📊 Evaluation    | LLM Quality + Reliability        |
+| 🏗️ AI Systems   | Production AI Architecture       |
+
+</div>
+
+---
+
+# 💼 Featured Projects
+
+## 🧠 AtlasOS — AI Memory Operating System
+
+**Tech:** Python • FastAPI • PostgreSQL • Redis • Qdrant • Next.js • Docker
+
+A production-oriented AI memory architecture designed around:
+
+* Hierarchical memory
+* Working memory
+* Episodic memory
+* Semantic memory
+* Vector retrieval
+* Multi-tenant architecture
+* PostgreSQL Row-Level Security
+* Redis
+* Background processing
+* Dockerized infrastructure
+
+> **Goal:** Build AI systems capable of maintaining useful long-term context.
+
+---
+
+## 🧪 RagaAI Catalyst — LLM Evaluation Platform
+
+**Tech:** Python • FastAPI • React • MongoDB • LLM APIs
+
+An AI evaluation platform designed to compare and analyze LLM responses.
+
+### Evaluation Dimensions
+
+* 🎯 Correctness
+* 📚 Faithfulness
+* 🔎 Relevance
+* 🛡️ Toxicity
+* 📊 Model comparison
+* 📈 Evaluation analytics
+
+Designed around multiple model providers and evaluation workflows.
+
+---
+
+## ⚔️ AI Debate Arena
+
+**Tech:** Python • LLMs • Web Technologies
+
+A multi-model AI platform where different language models can participate in structured debates and responses can be compared.
+
+### Focus
+
+* Multi-model interaction
+* Structured reasoning
+* Response comparison
+* AI evaluation
+* Interactive user experience
+
+---
+
+# 🛠️ Technology Stack
+
+## 👨‍💻 Programming
 
 <p align="center">
 
-![](https://komarev.com/ghpvc/?username=kartik-012&style=for-the-badge)
-
-![](https://img.shields.io/github/followers/kartik-012?style=for-the-badge)
-
-![](https://img.shields.io/github/stars/kartik-012?style=for-the-badge)
+<img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,c,html,css"/>
 
 </p>
 
 ---
 
-# 🚀 About Me
+## 🤖 AI / Machine Learning
 
-🎓 **Bachelor of Engineering (B.E.)**
-Artificial Intelligence & Machine Learning
+<p align="center">
 
-💡 Passionate about designing AI-powered applications that solve real-world problems using modern technologies.
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
 
-I enjoy building scalable software that combines:
+</p>
 
-- 🤖 Artificial Intelligence
-- 🧠 Large Language Models
-- 📚 Retrieval-Augmented Generation (RAG)
-- ⚡ AI Agents
-- 🌐 Full Stack Development
-- ☁ Cloud Infrastructure
+<p align="center">
+
+<img src="https://img.shields.io/badge/LLMs-Generative%20AI-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Agents-Agentic%20AI-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Transformers-NLP-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Model%20Evaluation-LLM%20Quality-F59E0B?style=for-the-badge"/>
+
+</p>
+
+---
+
+## 🌐 Frontend & Backend
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,vite,nextjs,tailwind,nodejs,express,fastapi,flask"/>
+
+</p>
+
+---
+
+## 🗄️ Databases & Data
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=postgresql,mongodb,mysql,redis,firebase,supabase"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Qdrant-Vector%20Database-DC2626?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Neo4j-Graph%20Database-008CC1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?style=for-the-badge"/>
+
+</p>
+
+---
+
+## ☁️ Cloud & DevOps
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,git,github"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Google%20Cloud-Cloud%20Infrastructure-4285F4?style=for-the-badge&logo=google-cloud"/>
+<img src="https://img.shields.io/badge/Vercel-Deployment-000000?style=for-the-badge&logo=vercel"/>
+<img src="https://img.shields.io/badge/CI%2FCD-Automation-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MLOps-Production%20ML-7C3AED?style=for-the-badge"/>
+
+</p>
+
+---
+
+## 🔧 Developer Tools
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi"/>
+<img src="https://img.shields.io/badge/Canva-Design-00C4CC?style=for-the-badge&logo=canva"/>
+<img src="https://img.shields.io/badge/OpenAPI-API%20Specification-6BA539?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prettier-Code%20Formatting-F7B93E?style=for-the-badge&logo=prettier"/>
+<img src="https://img.shields.io/badge/ESLint-Code%20Quality-4B3263?style=for-the-badge&logo=eslint"/>
+
+</p>
 
 ---
 
 # 🎯 Current Focus
 
-- 🤖 AI Agents
-- 🧠 LLM Applications
-- 📚 Retrieval-Augmented Generation
-- ⚡ Full Stack AI Development
-- ☁ Cloud Deployment
-- 🐳 Docker
-- ☸ Kubernetes
-- 🚀 MLOps
+<div align="center">
+
+### Building Better AI Systems
+
+**01 — AI Agents**
+Designing systems capable of using tools and executing multi-step workflows.
+
+**02 — LLM Applications**
+Building practical applications around modern language models.
+
+**03 — Retrieval-Augmented Generation**
+Improving AI responses through retrieval and grounded context.
+
+**04 — AI Evaluation**
+Measuring correctness, relevance, faithfulness, and reliability.
+
+**05 — Production Engineering**
+Docker, APIs, databases, cloud infrastructure, monitoring, and scalability.
+
+**06 — MLOps**
+Building reliable workflows for deploying and maintaining ML systems.
+
+</div>
 
 ---
 
 # 🌱 Currently Learning
 
-- Advanced Prompt Engineering
-- AI Agent Frameworks
-- LangGraph
-- LangChain
-- Model Context Protocol (MCP)
-- Vector Databases
-- Kubernetes
-- Cloud Architecture
-- CI/CD Pipelines
-- Distributed Systems
+```text
+Advanced Prompt Engineering
+        ↓
+AI Agent Architecture
+        ↓
+LangGraph
+        ↓
+LangChain
+        ↓
+Model Context Protocol (MCP)
+        ↓
+Vector Databases
+        ↓
+Kubernetes
+        ↓
+Cloud Architecture
+        ↓
+CI/CD
+        ↓
+Distributed Systems
+```
 
 ---
 
-# 💼 Looking For
-
-✔ AI Engineering Opportunities
-
-✔ Software Development Roles
-
-✔ Open Source Contributions
-
-✔ Internship Opportunities
-
-✔ AI Research Projects
-
-✔ Collaboration on Innovative AI Products
-
----
-
-## 🌐 Let's Connect
+# 📊 GitHub Analytics
 
 <p align="center">
-
-<a href="mailto:kartikraikar2005@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" width="55"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://linkedin.com/in/kartik-raikar-kr">
-<img src="https://skillicons.dev/icons?i=linkedin" width="55"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://github.com/kartik-012">
-<img src="https://skillicons.dev/icons?i=github" width="55"/>
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://kartikportfolio-eta.vercel.app/">
-<img src="https://img.icons8.com/fluency/96/domain.png" width="55"/>
-</a>
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kartik-012&theme=github_dark"/>
 </p>
 
-
-# 📫 Contact
-
-📧 **Email**
-
-```
-kartikraikar2005@gmail.com
-```
-
-🌐 **Portfolio**
-
-```
-https://atlas-ai-resume.vercel.app
-```
-
-💼 **LinkedIn**
-
-```
-linkedin.com/in/kartik-raikar-kr
-```
-
-🐙 **GitHub**
-
-```
-github.com/kartik-012
-```
-
----
-
-# 💬 Quote
-
-> **"Building AI that doesn't just answer questions—but solves real-world problems."**
-
----
-
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white)
-# 📊 GitHub Stats:
-<!-- ========================= GitHub Analytics ========================= -->
-
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=header&text=📊%20GitHub%20Analytics&fontSize=30&fontColor=ffffff&animation=fade&color=0:0B1F33,50:123458,100:1E3A5F"/>
-</p>
-
-<p align="center">
-<i>🚀 Consistency beats intensity.</i>
-</p>
-
-
+<br/>
 
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kartik-012&theme=github_dark"/>
@@ -203,16 +352,105 @@ github.com/kartik-012
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kartik-012&theme=github_dark"/>
 </p>
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kartik-012&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=kartik-012&theme=github-dark-blue&hide_border=true"/>
-</p>
+---
 
-
-## 📈 Contribution Graph
+# 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kartik-012&theme=github-dark&hide_border=true&area=true"/>
+
+<img src="https://streak-stats.demolab.com?user=kartik-012&theme=github-dark-blue&hide_border=true"/>
+
 </p>
 
+---
 
+# 📈 Contribution Activity
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kartik-012&theme=github-dark&hide_border=true&area=true&custom_title=Kartik's%20Contribution%20Graph"/>
+
+</p>
+
+---
+
+# 💡 Engineering Philosophy
+
+<div align="center">
+
+### **Build → Measure → Improve → Repeat**
+
+I believe good AI engineering is not just about making a model work.
+
+It's about building systems that are:
+
+**Reliable.**
+
+**Observable.**
+
+**Scalable.**
+
+**Secure.**
+
+**Useful.**
+
+<br/>
+
+> **"Building AI that doesn't just answer questions — but solves real-world problems."**
+
+</div>
+
+---
+
+# 💼 What I'm Looking For
+
+I'm interested in opportunities involving:
+
+* 🤖 AI Engineering
+* 🧠 Generative AI
+* ⚡ AI Agents
+* 📚 RAG Systems
+* 💻 Software Engineering
+* 🌐 Full-Stack AI Development
+* 🧪 AI Research & Experimentation
+* 🚀 Production AI Products
+* 🌱 Open Source Collaboration
+* 🎓 Internship Opportunities
+
+---
+
+# 🌐 Let's Connect
+
+<div align="center">
+
+<a href="mailto:kartikraikar2005@gmail.com">
+<img src="https://img.shields.io/badge/Email-kartikraikar2005%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/kartik-raikar-kr">
+<img src="https://img.shields.io/badge/LinkedIn-Kartik%20Raikar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/kartik-012">
+<img src="https://img.shields.io/badge/GitHub-kartik--012-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://kartikportfolio-eta.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+### ⭐ If you find my projects interesting, consider giving them a star!
+
+**Thanks for visiting my profile! 🚀**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:020617,50:1D4ED8,100:3B82F6"/>
+
+</div>
