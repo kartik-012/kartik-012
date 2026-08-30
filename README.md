@@ -7,7 +7,7 @@
 <div align="center"> 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0F172A,75:1D4ED8,100:3B82F6&text=Kartik%20Raikar&fontSize=55&fontAlignY=38&fontColor=ffffff&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Building%20Production-Ready%20AI%20Systems&descAlignY=62&descSize=18&animation=fade"/>
-
+ 
 <h1>Hi 👋, I'm Kartik Raikar</h1>
 
 <h3>AI Engineer • Full-Stack Developer • Generative AI Builder</h3>
