@@ -97,28 +97,28 @@
 │                 KARTIK • AI ENGINEERING WORKSPACE            │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  $ whoami                                                     │
+│  $ whoami                                                    │
 │                                                              │
-│  Kartik Raikar                                                │
+│  Kartik Raikar                                               │
 │                                                              │
-│  > AI / ML Engineer                                           │
-│  > Full-Stack Developer                                       │
-│  > Generative AI Builder                                      │
-│  > Backend & Systems Enthusiast                               │
+│  > AI / ML Engineer                                          │
+│  > Full-Stack Developer                                      │
+│  > Generative AI Builder                                     │
+│  > Backend & Systems Enthusiast                              │
 │                                                              │
-│  $ current_mission                                            │
+│  $ current_mission                                           │
 │                                                              │
 │  Build intelligent software that connects AI, data,          │
 │  backend engineering, infrastructure and product UX.         │
 │                                                              │
-│  $ system_status                                              │
+│  $ system_status                                             │
 │                                                              │
-│  [✓] AI PIPELINES                                             │
-│  [✓] RETRIEVAL SYSTEMS                                        │
-│  [✓] BACKEND SERVICES                                         │
-│  [✓] DATA SYSTEMS                                             │
-│  [✓] FRONTEND EXPERIENCES                                     │
-│  [✓] CONTAINERIZED DEPLOYMENT                                 │
+│  [✓] AI PIPELINES                                            │
+│  [✓] RETRIEVAL SYSTEMS                                       │
+│  [✓] BACKEND SERVICES                                        │
+│  [✓] DATA SYSTEMS                                            │
+│  [✓] FRONTEND EXPERIENCES                                    │
+│  [✓] CONTAINERIZED DEPLOYMENT                                │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
