@@ -11,7 +11,6 @@
   alt="Kartik Raikar"
   width="100%"
 />
-
 <br/>
 
 <img
