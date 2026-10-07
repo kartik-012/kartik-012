@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .frame { stroke: #161b22; stroke-width: 2; fill: none; }
+      .accent { fill: #00ff88; }
+      .title { fill: #8b949e; font-family: monospace; font-size: 12px; }
+      .label { fill: #8b949e; font-family: sans-serif; font-size: 10px; }
+      .val-text { font-family: sans-serif; font-size: 24px; font-weight: bold; }
+      .bar-bg { fill: #161b22; }
+      
+      .gauge-bg { fill: none; stroke: #161b22; stroke-width: 6; }
+      .gauge-val { fill: none; stroke-width: 6; stroke-linecap: round; transform: rotate(-90deg); transform-origin: center; }
+      
+      .ticker-text { fill: #8b949e; font-family: monospace; font-size: 9px; opacity: 0.5; }
+      .ticker { animation: scroll 15s linear infinite; }
+      @keyframes scroll {
+        0% { transform: translateX(1100px); }
+        100% { transform: translateX(-800px); }
+      }
+      
+      .fade-in { opacity: 0; animation: fadeIn 1s forwards; }
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+      
+      .pulse-dot { animation: pulse 2s infinite alternate; }
+      @keyframes pulse {
+        0% { opacity: 0.2; }
+        100% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1100" height="300" class="bg" />
+
+  <!-- HUD Frame -->
+  <path d="M 20 50 L 50 20 L 1050 20 L 1080 50 L 1080 250 L 1050 280 L 50 280 L 20 250 Z" class="frame" />
+  <polygon points="15,45 35,25 35,30 20,45" class="accent" />
+  <polygon points="1085,45 1065,25 1065,30 1080,45" class="accent" />
+  <polygon points="15,255 35,275 35,270 20,255" class="accent" />
+  <polygon points="1085,255 1065,275 1065,270 1080,255" class="accent" />
+
+  <text x="50" y="45" class="title">SYSTEM PERFORMANCE METRICS</text>
+
+  <!-- Content Group -->
+  <g transform="translate(60, 80)">
+    
+    <!-- Section 1: Retrieval Accuracy -->
+    <g transform="translate(100, 70)">
+      <circle cx="-50" cy="-70" r="3" fill="#00ff88" class="pulse-dot" />
+      <circle cx="0" cy="0" r="45" class="gauge-bg" />
+      <!-- 85% of 2*pi*45 (282.74) = 240.33 -->
+      <circle cx="0" cy="0" r="45" class="gauge-val" stroke="#00ff88" stroke-dasharray="282.74" stroke-dashoffset="282.74">
+        <animate attributeName="stroke-dashoffset" from="282.74" to="42.41" dur="2s" fill="freeze" />
+      </circle>
+      <text x="0" y="8" text-anchor="middle" class="val-text fade-in" fill="#e6edf3" style="animation-delay: 1.5s;">85%</text>
+      <text x="0" y="65" text-anchor="middle" class="label">RETRIEVAL ACC</text>
+    </g>
+
+    <!-- Section 2: Intent Accuracy -->
+    <g transform="translate(300, 70)">
+      <circle cx="-50" cy="-70" r="3" fill="#a855f7" class="pulse-dot" style="animation-delay: 0.5s;" />
+      <circle cx="0" cy="0" r="45" class="gauge-bg" />
+      <!-- 100% of 2*pi*45 = 282.74 -->
+      <circle cx="0" cy="0" r="45" class="gauge-val" stroke="#a855f7" stroke-dasharray="282.74" stroke-dashoffset="282.74">
+        <animate attributeName="stroke-dashoffset" from="282.74" to="0" dur="2s" fill="freeze" />
+      </circle>
+      <text x="0" y="8" text-anchor="middle" class="val-text fade-in" fill="#e6edf3" style="animation-delay: 1.5s;">100%</text>
+      <text x="0" y="65" text-anchor="middle" class="label">INTENT ACC</text>
+    </g>
+
+    <!-- Section 3: Bar Metrics -->
+    <g transform="translate(450, 0)">
+      <circle cx="0" cy="0" r="3" fill="#06b6d4" class="pulse-dot" style="animation-delay: 0.2s;" />
+      
+      <!-- Bar 1 -->
+      <text x="0" y="25" class="label">Precision @k=6</text>
+      <rect x="150" y="15" width="200" height="12" rx="6" class="bar-bg" />
+      <rect x="150" y="15" width="0" height="12" rx="6" fill="#06b6d4">
+        <animate attributeName="width" from="0" to="196.8" dur="1s" begin="0.5s" fill="freeze" />
+      </rect>
+      <text x="360" y="25" class="label fade-in" style="animation-delay: 1.5s;">98.4%</text>
+
+      <!-- Bar 2 -->
+      <text x="0" y="55" class="label">RCA Accuracy</text>
+      <rect x="150" y="45" width="200" height="12" rx="6" class="bar-bg" />
+      <rect x="150" y="45" width="0" height="12" rx="6" fill="#00ff88">
+        <animate attributeName="width" from="0" to="200" dur="1s" begin="1.0s" fill="freeze" />
+      </rect>
+      <text x="360" y="55" class="label fade-in" style="animation-delay: 2.0s;">100%</text>
+
+      <!-- Bar 3 -->
+      <text x="0" y="85" class="label">AST Diff Acc</text>
+      <rect x="150" y="75" width="200" height="12" rx="6" class="bar-bg" />
+      <rect x="150" y="75" width="0" height="12" rx="6" fill="#a855f7">
+        <animate attributeName="width" from="0" to="188.4" dur="1s" begin="1.5s" fill="freeze" />
+      </rect>
+      <text x="360" y="85" class="label fade-in" style="animation-delay: 2.5s;">94.2%</text>
+
+      <!-- Bar 4 -->
+      <text x="0" y="115" class="label">False Positive Suppression</text>
+      <rect x="150" y="105" width="200" height="12" rx="6" class="bar-bg" />
+      <rect x="150" y="105" width="0" height="12" rx="6" fill="#f59e0b">
+        <animate attributeName="width" from="0" to="200" dur="1s" begin="2.0s" fill="freeze" />
+      </rect>
+      <text x="360" y="115" class="label fade-in" style="animation-delay: 3.0s;">100%</text>
+    </g>
+
+    <!-- Section 4: Counter Metrics -->
+    <g transform="translate(850, 0)">
+      <circle cx="0" cy="0" r="3" fill="#f43f5e" class="pulse-dot" style="animation-delay: 0.8s;" />
+      
+      <g class="fade-in">
+        <text x="0" y="25" class="val-text" fill="#f43f5e">0.78s</text>
+        <text x="60" y="23" class="label">MTTR</text>
+      </g>
+      
+      <g class="fade-in" style="animation-delay: 0.5s;">
+        <text x="0" y="60" class="val-text" fill="#06b6d4">5.4ms</text>
+        <text x="65" y="58" class="label">HNSW Latency</text>
+      </g>
+      
+      <g class="fade-in" style="animation-delay: 1.0s;">
+        <text x="0" y="95" class="val-text" fill="#a855f7">2,580</text>
+        <text x="75" y="93" class="label">Doc Chunks Indexed</text>
+      </g>
+      
+      <g class="fade-in" style="animation-delay: 1.5s;">
+        <text x="0" y="130" class="val-text" fill="#00ff88">0.0%</text>
+        <text x="60" y="128" class="label">Hallucination Rate</text>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- Bottom Ticker -->
+  <g transform="translate(0, 275)">
+    <text x="0" y="0" class="ticker-text ticker">ALL SYSTEMS NOMINAL • VECTOR DB: ONLINE • CACHE: WARM • API: HEALTHY • AGENT: STANDBY</text>
+  </g>
+
+</svg>

@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 400" width="580" height="400">
+    <defs>
+        <style>
+            .title { font-family: 'Segoe UI', sans-serif; font-size: 22px; font-weight: bold; fill: #e6edf3; }
+            .subtitle { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-style: italic; fill: #8b949e; }
+            .metric-val { font-family: monospace; font-size: 34px; font-weight: bold; fill: #e6edf3; }
+            .metric-label { font-family: sans-serif; font-size: 9px; letter-spacing: 1.5px; fill: #00ff88; }
+            .feature { font-family: monospace; font-size: 11px; fill: #00ff88; opacity: 0.8; }
+            .badge-text { font-family: sans-serif; font-size: 10px; fill: #e6edf3; text-anchor: middle; dominant-baseline: middle; }
+            .binary { font-family: monospace; font-size: 8px; fill: #e6edf3; opacity: 0.05; letter-spacing: 2px; }
+            .fade-in { opacity: 0; animation: fadeIn 0.5s forwards; }
+            @keyframes fadeIn { to { opacity: 1; } }
+        </style>
+        <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00ff88"><animate attributeName="stop-color" values="#00ff88;#06b6d4;#a855f7;#f43f5e;#f59e0b;#00ff88" dur="6s" repeatCount="indefinite" /></stop>
+            <stop offset="25%" stop-color="#06b6d4"><animate attributeName="stop-color" values="#06b6d4;#a855f7;#f43f5e;#f59e0b;#00ff88;#06b6d4" dur="6s" repeatCount="indefinite" /></stop>
+            <stop offset="50%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#f43f5e;#f59e0b;#00ff88;#06b6d4;#a855f7" dur="6s" repeatCount="indefinite" /></stop>
+            <stop offset="75%" stop-color="#f43f5e"><animate attributeName="stop-color" values="#f43f5e;#f59e0b;#00ff88;#06b6d4;#a855f7;#f43f5e" dur="6s" repeatCount="indefinite" /></stop>
+            <stop offset="100%" stop-color="#f59e0b"><animate attributeName="stop-color" values="#f59e0b;#00ff88;#06b6d4;#a855f7;#f43f5e;#f59e0b" dur="6s" repeatCount="indefinite" /></stop>
+        </linearGradient>
+    </defs>
+
+    <!-- 1. 3D LAYERED DEPTH -->
+    <!-- Back shadow card -->
+    <rect x="26" y="26" width="540" height="360" rx="12" fill="#0d1117" stroke="#161b22" opacity="0.3" />
+    <!-- Middle shadow card -->
+    <rect x="23" y="23" width="540" height="360" rx="12" fill="#10151c" stroke="#161b22" opacity="0.5" />
+    <!-- Main front card -->
+    <rect x="20" y="20" width="540" height="360" rx="12" fill="#161b22" />
+
+    <!-- 3. BINARY DATA RAIN -->
+    <g>
+        <text x="30" y="-50" class="binary" transform="rotate(90 30 -50)">1011001001101100100110110010011011001001<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="15s" repeatCount="indefinite" additive="sum"/></text>
+<text x="85" y="-50" class="binary" transform="rotate(90 85 -50)">0110010011011001001101100100110110010011<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="20s" repeatCount="indefinite" additive="sum"/></text>
+<text x="140" y="-50" class="binary" transform="rotate(90 140 -50)">1100100110110010011011001001101100100110<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="25s" repeatCount="indefinite" additive="sum"/></text>
+<text x="195" y="-50" class="binary" transform="rotate(90 195 -50)">1001001101100100110110010011011001001101<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="18s" repeatCount="indefinite" additive="sum"/></text>
+<text x="250" y="-50" class="binary" transform="rotate(90 250 -50)">0010011011001001101100100110110010011011<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="22s" repeatCount="indefinite" additive="sum"/></text>
+<text x="305" y="-50" class="binary" transform="rotate(90 305 -50)">0100110110010011011001001101100100110110<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="16s" repeatCount="indefinite" additive="sum"/></text>
+<text x="360" y="-50" class="binary" transform="rotate(90 360 -50)">1001101100100110110010011011001001101100<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="24s" repeatCount="indefinite" additive="sum"/></text>
+<text x="415" y="-50" class="binary" transform="rotate(90 415 -50)">0011011001001101100100110110010011011001<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="19s" repeatCount="indefinite" additive="sum"/></text>
+<text x="470" y="-50" class="binary" transform="rotate(90 470 -50)">0110110010011011001001101100100110110010<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="21s" repeatCount="indefinite" additive="sum"/></text>
+<text x="525" y="-50" class="binary" transform="rotate(90 525 -50)">1101100100110110010011011001001101100100<animateTransform attributeName="transform" type="translate" from="0 -50" to="0 400" dur="17s" repeatCount="indefinite" additive="sum"/></text>
+
+    </g>
+
+    <!-- 4. CRT SCAN LINE -->
+    <rect x="20" y="20" width="540" height="2" fill="#00ff88" opacity="0.06">
+        <animate attributeName="y" values="20;378;20" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- 2. HOLOGRAPHIC ANIMATED BORDER -->
+    <rect x="20" y="20" width="540" height="360" rx="12" fill="none" stroke="url(#holo)" stroke-width="2" />
+
+    <!-- 5. ACCENT BAR -->
+    <rect x="20" y="20" width="540" height="3" fill="url(#holo)" opacity="0.8">
+        <animate attributeName="width" values="540" />
+    </rect>
+
+    <!-- 6. STATUS INDICATOR -->
+    <circle cx="485" cy="45" r="4" fill="#00ff88">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="495" y="48" font-family="monospace" font-size="9px" fill="#00ff88">DEPLOYED</text>
+
+    <!-- 7. ANIMATED CORNER MARKERS -->
+    <g fill="#00ff88" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+        <path d="M 35,35 L 45,35 M 40,30 L 40,40" stroke="#00ff88" stroke-width="1.5" />
+    </g>
+    <g fill="#00ff88" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+        <path d="M 535,365 L 545,365 M 540,360 L 540,370" stroke="#00ff88" stroke-width="1.5" />
+    </g>
+
+    <!-- 8. PROJECT ICON -->
+    <g>
+        <animateTransform attributeName="transform" type="scale" values="0.9;1.1;0.9" dur="4s" repeatCount="indefinite" transform-origin="60 60" />
+        <g transform="translate(40, 40)">
+            <circle cx="15" cy="10" r="4" fill="#00ff88" />
+            <circle cx="35" cy="15" r="4" fill="#00ff88" />
+            <circle cx="25" cy="35" r="4" fill="#00ff88" />
+            <circle cx="5" cy="25" r="4" fill="#00ff88" />
+            <circle cx="45" cy="30" r="4" fill="#00ff88" />
+            <path d="M15,10 L35,15 L45,30 L25,35 L5,25 Z M15,10 L25,35" stroke="#00ff88" stroke-width="1.5" fill="none">
+                <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+            </path>
+        </g>
+    </g>
+
+    <!-- 9. & 10. TITLE & SUBTITLE -->
+    <text x="110" y="65" class="title">AIOps Root Cause Correlator</text>
+    <text x="110" y="85" class="subtitle">Autonomous Incident Correlation Engine</text>
+
+    <!-- 12. FEATURE TEXT -->
+    <text x="40" y="140" class="feature">> EWMA z>2.0σ Detection + NetworkX Causal DAG Traversal</text>
+
+    <!-- 11. METRICS ROW -->
+    <g>
+        <!-- Metric 1 -->
+        <g opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
+            <text x="40" y="210" class="metric-val">0.78s</text>
+            <text x="40" y="230" class="metric-label">MTTR</text>
+        </g>
+        <!-- Metric 2 -->
+        <g opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.0s" fill="freeze" />
+            <text x="230" y="210" class="metric-val">100%</text>
+            <text x="230" y="230" class="metric-label">RCA ACCURACY</text>
+        </g>
+        <!-- Metric 3 -->
+        <g opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.5s" fill="freeze" />
+            <text x="420" y="210" class="metric-val">30</text>
+            <text x="420" y="230" class="metric-label">SCENARIOS</text>
+        </g>
+    </g>
+
+    <!-- 13. TECH BADGES -->
+    
+        <g transform="translate(40, 320)">
+            <rect width="62" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="0s" repeatCount="indefinite" />
+            </rect>
+            <text x="31.0" y="12" class="badge-text">Python</text>
+        </g>
+        
+        <g transform="translate(112, 320)">
+            <rect width="69" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="0.5s" repeatCount="indefinite" />
+            </rect>
+            <text x="34.5" y="12" class="badge-text">FastAPI</text>
+        </g>
+        
+        <g transform="translate(191, 320)">
+            <rect width="90" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="1.0s" repeatCount="indefinite" />
+            </rect>
+            <text x="45.0" y="12" class="badge-text">PostgreSQL</text>
+        </g>
+        
+        <g transform="translate(291, 320)">
+            <rect width="55" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="1.5s" repeatCount="indefinite" />
+            </rect>
+            <text x="27.5" y="12" class="badge-text">Redis</text>
+        </g>
+        
+        <g transform="translate(356, 320)">
+            <rect width="76" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="2.0s" repeatCount="indefinite" />
+            </rect>
+            <text x="38.0" y="12" class="badge-text">NetworkX</text>
+        </g>
+        
+        <g transform="translate(442, 320)">
+            <rect width="76" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="2.5s" repeatCount="indefinite" />
+            </rect>
+            <text x="38.0" y="12" class="badge-text">Three.js</text>
+        </g>
+        
+        <g transform="translate(528, 320)">
+            <rect width="62" height="24" rx="4" fill="#0d1117" stroke="#161b22">
+                <animate attributeName="opacity" values="0.6;1.0;0.6" dur="3s" begin="3.0s" repeatCount="indefinite" />
+            </rect>
+            <text x="31.0" y="12" class="badge-text">Docker</text>
+        </g>
+        
+
+    <!-- 14. BOTTOM DATA FLOW -->
+    <line x1="40" y1="365" x2="540" y2="365" stroke="#00ff88" stroke-width="1" opacity="0.2" />
+    <circle cx="0" cy="365" r="2" fill="#00ff88">
+        <animate attributeName="cx" values="40;540" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="365" r="2" fill="#00ff88">
+        <animate attributeName="cx" values="40;540" dur="2s" begin="0.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="365" r="2" fill="#00ff88">
+        <animate attributeName="cx" values="40;540" dur="2s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+
+</svg>

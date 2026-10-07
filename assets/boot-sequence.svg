@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+    <style>
+        .text {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            opacity: 0;
+            animation: showText 0.1s forwards;
+        }
+        @keyframes showText {
+            to { opacity: 1; }
+        }
+        .cursor {
+            opacity: 0;
+            animation: cursorBlink 1.2s step-end infinite;
+        }
+        @keyframes cursorBlink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        .l1 { animation-delay: 0.3s; fill: #8b949e; }
+        .l2 { animation-delay: 0.9s; fill: #00ff88; }
+        .l3 { animation-delay: 1.5s; fill: #00ff88; }
+        .l4 { animation-delay: 2.1s; fill: #00ff88; }
+        .l5 { animation-delay: 2.7s; fill: #00ff88; }
+        .l6 { animation-delay: 3.3s; fill: #00ff88; }
+        .l7 { animation-delay: 3.9s; fill: #00ff88; }
+        .l8 { animation-delay: 4.5s; fill: #00ff88; }
+        .l9 { animation-delay: 5.1s; fill: #00ff88; }
+        .l10 { animation-delay: 5.7s; fill: #00ff88; }
+        .l11 { animation-delay: 6.3s; fill: #00ff88; }
+        .l12 { animation-delay: 6.9s; fill: #8b949e; }
+        .l13 { animation-delay: 7.5s; fill: #06b6d4; }
+        .l14 { animation-delay: 8.1s; fill: #a855f7; }
+        .l15 { animation-delay: 8.7s; fill: #f59e0b; }
+        .l16 { animation-delay: 9.3s; fill: #8b949e; }
+        .l17 { animation-delay: 9.9s; fill: #00ff88; }
+        
+        .c-delay { animation-delay: 10.0s; fill: #00ff88; }
+    </style>
+    
+    <rect width="900" height="420" fill="#0d1117" />
+    
+    <!-- Outer frame -->
+    <rect x="10" y="10" width="880" height="400" rx="8" fill="#0d1117" stroke="#161b22" stroke-width="2" />
+    
+    <!-- Title bar -->
+    <path d="M 10 18 Q 10 10 18 10 L 882 10 Q 890 10 890 18 L 890 38 L 10 38 Z" fill="#161b22" />
+    <circle cx="25" cy="24" r="5" fill="#f43f5e" />
+    <circle cx="40" cy="24" r="5" fill="#f59e0b" />
+    <circle cx="55" cy="24" r="5" fill="#00ff88" />
+    <text x="450" y="28" font-family="'Courier New', monospace" font-size="12px" fill="#8b949e" text-anchor="middle">kartik@neural-hq: ~</text>
+
+    <!-- Content -->
+    <g transform="translate(25, 65)">
+        <text y="0" class="text l1">[SYSTEM] Initializing Kartik Raikar Neural Workspace...</text>
+        <text y="20" class="text l2">[  OK  ] Core Engine ............... Python 3.12</text>
+        <text y="40" class="text l3">[  OK  ] API Gateway ............... FastAPI (async)</text>
+        <text y="60" class="text l4">[  OK  ] Vector Database ........... pgvector + HNSW</text>
+        <text y="80" class="text l5">[  OK  ] Cache Layer ............... Redis</text>
+        <text y="100" class="text l6">[  OK  ] Document Store ............ PostgreSQL 16</text>
+        <text y="120" class="text l7">[  OK  ] LLM Interface ............. Ollama + Transformers</text>
+        <text y="140" class="text l8">[  OK  ] Agent Framework ........... FastMCP + LangChain</text>
+        <text y="160" class="text l9">[  OK  ] Frontend Renderer ......... React 18 + Next.js</text>
+        <text y="180" class="text l10">[  OK  ] 3D Visualizer ............ Three.js WebGL</text>
+        <text y="200" class="text l11">[  OK  ] Container Runtime ......... Docker</text>
+        <text y="220" class="text l12">────────────────────────────────────────────────────</text>
+        <text y="240" class="text l13">[LOAD ] Projects: 4 deployed | Accuracy: 100% | Hallucinations: 0.0%</text>
+        <text y="260" class="text l14">[LOAD ] Certifications: Oracle AI | AWS ML | Tata GenAI</text>
+        <text y="280" class="text l15">[LOAD ] Rank: Vice President, AI &amp; ML Department</text>
+        <text y="300" class="text l16">────────────────────────────────────────────────────</text>
+        <text y="320" class="text l17">[READY] All systems operational. Welcome, Commander.</text>
+        <rect x="420" y="308" width="8" height="15" class="cursor c-delay" />
+    </g>
+
+    <!-- Scanline -->
+    <rect x="11" y="11" width="878" height="20" fill="#ffffff" opacity="0.03" style="pointer-events: none;">
+        <animateTransform attributeName="transform" type="translate" from="0 -20" to="0 400" dur="3s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Activity Indicator -->
+    <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 870 390" to="360 870 390" dur="2s" repeatCount="indefinite" />
+        <circle cx="864" cy="390" r="1.5" fill="#06b6d4" />
+        <circle cx="876" cy="390" r="1.5" fill="#06b6d4" />
+        <circle cx="870" cy="384" r="1.5" fill="#06b6d4" />
+        <circle cx="870" cy="396" r="1.5" fill="#06b6d4" />
+    </g>
+</svg>
