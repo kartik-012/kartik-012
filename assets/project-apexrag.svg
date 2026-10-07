@@ -113,7 +113,7 @@
         <g opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.5s" fill="freeze" />
             <text x="420" y="210" class="metric-val">100</text>
-            <text x="420" y="230" class="metric-label">VERIFIED Q&A</text>
+            <text x="420" y="230" class="metric-label">VERIFIED Q&amp;A</text>
         </g>
     </g>
 

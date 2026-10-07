@@ -20,7 +20,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1200&color=00FF88&center=true&vCenter=true&multiline=true&repeat=true&width=920&height=80&lines=%24+deploying+autonomous_incident_engine+--mode+production+--mttr+0.78s;%24+vector_retrieval+--hallucinations+0.0%25+--precision+98.4%25+--latency+5.4ms;%24+mcp_server+--intent-accuracy+100%25+--adversarial-tests+20+--saga+enabled;%24+rag_benchmark+--strategy+cross_encoder+--accuracy+85%25+--chunks+2580" alt="Terminal Command Stream" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=1000&color=00FF88&center=true&vCenter=true&width=920&height=45&lines=%24+deploying+autonomous_incident_engine+--mttr+0.78s+--rca+100%25;%24+vector_retrieval+--hallucinations+0.0%25+--precision+98.4%25+--hnsw+5.4ms;%24+mcp_server+--intent-accuracy+100%25+--adversarial-tests+20+--saga+enabled;%24+rag_benchmark+--strategy+cross_encoder+--accuracy+85%25+--chunks+2580" alt="Terminal Command Stream" />
 </a>
 
 <br/>
@@ -95,28 +95,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3500&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&height=40&lines=%E2%96%B6+KERNEL+MANIFEST" alt="Kernel Header" />
 </a>
 
-</div>
+<br/><br/>
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                               ║
-║   ENGINEER        Kartik Raikar                                                               ║
-║   AFFILIATION     Jain College of Engineering, Belagavi                                       ║
-║   PROGRAM         B.E. Computer Science & Engineering (AI & ML) — CGPA 8.50 / 10.00          ║
-║   RANK            Vice President, Department of Artificial Intelligence & Machine Learning    ║
-║                                                                                               ║
-║   CORE SYSTEMS    Agentic AI  ·  Enterprise RAG  ·  LLM Evaluation  ·  MCP Servers           ║
-║   METHODOLOGY     Problem → Architecture → Model → API → Data → UI → Deployment → Iterate   ║
-║                                                                                               ║
-║   ┌─────────────────────────────────────────────────────────────────────────────────────┐     ║
-║   │  "Don't build AI that produces answers.                                             │     ║
-║   │   Build AI systems that solve real problems — measurably, reliably, and at scale."  │     ║
-║   └─────────────────────────────────────────────────────────────────────────────────────┘     ║
-║                                                                                               ║
-║   RUNTIME ████████████████████████████████████████████████████████████████████████ ONLINE     ║
-║                                                                                               ║
-╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-```
+<!-- ANIMATED CYBERNETIC KERNEL MANIFEST CARD -->
+<img src="./assets/kernel-manifest.svg" width="100%" alt="System Kernel Specification Manifest" />
+
+</div>
 
 <br/>
 
@@ -347,11 +331,6 @@ flowchart TB
 <!-- ANIMATED ACHIEVEMENT HUD PANEL SVG -->
 <img src="./assets/achievement-panel.svg" width="100%" alt="Credentials • Leadership • Hackathon Ops" />
 
-<br/><br/>
-
-<!-- GITHUB TROPHY SHOWCASE -->
-<img src="https://github-profile-trophy.vercel.app/?username=kartik-012&theme=algolia&no-bg=true&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%" alt="GitHub Achievement Trophies" />
-
 </div>
 
 <br/>
@@ -371,58 +350,13 @@ flowchart TB
 
 <br/><br/>
 
-<!-- FULL-WIDTH PROFILE SUMMARY -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kartik-012&theme=github_dark" width="100%" alt="Profile Activity Summary" />
+<!-- SELF-HOSTED ANIMATED GITHUB ANALYTICS MATRIX (0% Rate Limit Risk • 100% Uptime) -->
+<img src="./assets/github-analytics.svg" width="100%" alt="GitHub Real-Time Telemetry & Activity Matrix" />
 
 <br/><br/>
 
-<!-- STATS + LANGUAGES GRID -->
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="50%">
-  <img src="https://github-readme-stats.vercel.app/api?username=kartik-012&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=github_dark&title_color=00ff88&icon_color=a855f7&text_color=8b949e&bg_color=0d1117&ring_color=00ff88" width="100%" alt="GitHub Stats" />
-</td>
-<td width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kartik-012&layout=compact&hide_border=true&langs_count=10&theme=github_dark&title_color=00ff88&text_color=8b949e&bg_color=0d1117" width="100%" alt="Language Distribution" />
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- STREAK TRACKER -->
+<!-- COMPACT LIVE TELEMETRY STREAK -->
 <img src="https://streak-stats.demolab.com/?user=kartik-012&theme=dark&hide_border=true&ring=00FF88&fire=A855F7&currStreakLabel=00FF88&sideLabels=06B6D4&dates=8b949e&background=0d1117&stroke=161b22" width="85%" alt="Contribution Streak" />
-
-<br/><br/>
-
-<!-- LIVE CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kartik-012&bg_color=0d1117&color=00ff88&line=a855f7&point=06b6d4&area=true&area_color=a855f7&hide_border=true&custom_title=%E2%9A%A1%20System%20Contribution%20Matrix%20%E2%80%94%20Live%20Feed" width="100%" alt="Contribution Activity Graph" />
-
-<br/><br/>
-
-<!-- DETAILED ANALYTICS ROW -->
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="33%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kartik-012&theme=github_dark" width="100%" alt="Repos per Language" />
-</td>
-<td width="33%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kartik-012&theme=github_dark" width="100%" alt="Commits per Language" />
-</td>
-<td width="33%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kartik-012&theme=github_dark&utcOffset=5.5" width="100%" alt="Peak Productivity Hours" />
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- 3D CONTRIBUTION TERRAIN MAP -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Terrain Map" />
-</picture>
 
 </div>
 
