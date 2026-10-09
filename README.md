@@ -1,7 +1,7 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                KARTIK RAIKAR • NEURAL COMMAND CENTER v2               ║ -->
 <!-- ║         Custom Animated SVGs • Holographic 3D Cards • Tech Radar      ║ -->
-<!-- ║       Boot Sequence • System Metrics • Circuit Dividers • HUD UI      ║ -->
+<!-- ║       Boot Sequence • System Metrics • Circuit Dividers • HUD UI      ║ --> 
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
  
 <!-- ═══════════════════ ANIMATED NEURAL NETWORK BANNER ═══════════════════ -->
