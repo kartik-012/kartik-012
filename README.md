@@ -6,7 +6,6 @@
  
 <!-- ═══════════════════ ANIMATED NEURAL NETWORK BANNER ═══════════════════ -->
 <!-- Matrix rain • Hex grid • 25+ pulsing nodes • Sonar pulse • Glitch text -->
-
 <div align="center">
 
 <img src="./assets/neural-banner.svg" width="100%" alt="Kartik Raikar — AI Systems Engineer" />
