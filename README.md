@@ -1,5 +1,5 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                KARTIK RAIKAR • NEURAL COMMAND CENTER v2               ║ -->
+<!-- ║                KARTIK RAIKAR • NEURAL COMMAND CENTER v2               ║ --> 
 <!-- ║         Custom Animated SVGs • Holographic 3D Cards • Tech Radar      ║ --> 
 <!-- ║       Boot Sequence • System Metrics • Circuit Dividers • HUD UI      ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
