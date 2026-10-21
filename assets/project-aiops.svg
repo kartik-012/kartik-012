@@ -1,75 +1,118 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 320" width="580" height="320">
   <defs>
+    <linearGradient id="aiops-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="aiops-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="card-inner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d1420" stop-opacity="0.5"/>
+    </linearGradient>
+
     <style>
-      @keyframes purpleGlow {
-        0%,100% { filter: drop-shadow(0 0 6px #a855f7); opacity:0.7; }
-        50% { filter: drop-shadow(0 0 18px #a855f7); opacity:1; }
+      .sans-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
       }
-      @keyframes prodBlink {
-        0%,100% { opacity:1; } 50% { opacity:0.4; }
+      .mono-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
       }
     </style>
-    <filter id="pglow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="580" height="320" fill="#0d1117" rx="10"/>
-  <!-- Purple border -->
-  <rect x="2" y="2" width="576" height="316" rx="9" fill="none" stroke="#a855f7" stroke-width="2"
-        style="animation: purpleGlow 3s ease-in-out infinite;" filter="url(#pglow)"/>
-  <!-- Top accent line -->
-  <rect x="2" y="2" width="576" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
+  <!-- Card Base -->
+  <rect width="580" height="320" rx="14" fill="url(#aiops-bg)"/>
+  <rect x="1" y="1" width="578" height="318" rx="13" fill="none" stroke="url(#aiops-border)" stroke-width="1.4"/>
+
+  <!-- Top Accent Beam -->
+  <rect x="1" y="1" width="578" height="3" rx="1.5" fill="#00ff88"/>
 
   <!-- Header -->
-  <text x="30" y="45" font-family="'Courier New', monospace" font-size="10" fill="#8b949e" letter-spacing="2">PROJECT :: INCIDENT-INTELLIGENCE</text>
-  <text x="30" y="70" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#e6edf3">AIOps</text>
-  <text x="108" y="70" font-family="'Courier New', monospace" font-size="13" fill="#a855f7"> — Incident Intelligence Platform</text>
+  <g transform="translate(30, 36)">
+    <rect width="130" height="20" rx="10" fill="#064e3b" stroke="#059669" stroke-width="0.8"/>
+    <text x="65" y="14" class="mono-font" font-size="10" font-weight="700" fill="#34d399" text-anchor="middle">INCIDENT INTELLIGENCE</text>
 
-  <!-- Status badge -->
-  <rect x="460" y="25" width="100" height="24" rx="4" fill="#a855f7" opacity="0.2" stroke="#a855f7" stroke-width="1"/>
-  <text x="510" y="41" font-family="'Courier New', monospace" font-size="11" fill="#a855f7" text-anchor="middle"
-        font-weight="900" style="animation: prodBlink 2s ease-in-out infinite;">⚡ PRODUCTION</text>
+    <!-- Production Badge -->
+    <g transform="translate(420, 0)">
+      <rect width="100" height="22" rx="11" fill="#14532d" stroke="#22c55e" stroke-width="0.8"/>
+      <circle cx="14" cy="11" r="3.5" fill="#4ade80"/>
+      <text x="24" y="15" class="mono-font" font-size="10" font-weight="800" fill="#4ade80">PRODUCTION</text>
+    </g>
 
-  <!-- Divider -->
-  <line x1="30" y1="85" x2="550" y2="85" stroke="#a855f7" stroke-width="0.5" opacity="0.4"/>
-
-  <!-- Metrics -->
-  <text x="30" y="110" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">PERFORMANCE METRICS</text>
-  <g font-family="'Courier New', monospace" font-size="13">
-    <text x="30" y="132" fill="#00ff88">⚡ 780ms MTTR</text>
-    <text x="210" y="132" fill="#06b6d4">🎯 100% RCA Accuracy</text>
-    <text x="30" y="155" fill="#f59e0b">📊 30 Failure Scenarios</text>
-    <text x="210" y="155" fill="#a855f7">🔗 Causal DAG Engine</text>
-  </g>
-
-  <!-- Divider -->
-  <line x1="30" y1="170" x2="550" y2="170" stroke="#a855f7" stroke-width="0.5" opacity="0.4"/>
-
-  <!-- Stack -->
-  <text x="30" y="192" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">TECH STACK</text>
-  <g font-family="'Courier New', monospace" font-size="12">
-    <text x="30" y="215">
-      <tspan fill="#00ff88">Kafka</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#06b6d4">gRPC</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#a855f7">FastAPI</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#f59e0b">pgvector</tspan>
-    </text>
-    <text x="30" y="238">
-      <tspan fill="#00ff88">NetworkX</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#06b6d4">Redis</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#a855f7">Prometheus</tspan>
+    <text x="0" y="52" class="sans-font" font-size="24" font-weight="900" fill="#ffffff">AIOps Incident Correlator</text>
+    <text x="0" y="74" class="sans-font" font-size="12" font-weight="500" fill="#94a3b8">
+      Real-Time Distributed Incident Triage &amp; Automated Causal DAG Root-Cause Engine
     </text>
   </g>
 
-  <!-- Bottom description -->
-  <line x1="30" y1="255" x2="550" y2="255" stroke="#a855f7" stroke-width="0.5" opacity="0.4"/>
-  <text x="30" y="277" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Correlates distributed system failures with causal reasoning</text>
-  <text x="30" y="298" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">EWMA anomaly detection · NetworkX DAG · KRaft Kafka</text>
+  <!-- 4 Metrics KPI Grid -->
+  <g transform="translate(30, 130)">
+    <!-- KPI 1 -->
+    <rect width="122" height="66" rx="8" fill="url(#card-inner)" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">MTTR LATENCY</text>
+    <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#00ff88">0.78s</text>
+
+    <!-- KPI 2 -->
+    <g transform="translate(132, 0)">
+      <rect width="122" height="66" rx="8" fill="url(#card-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">RCA ACCURACY</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#00e5ff">100%</text>
+    </g>
+
+    <!-- KPI 3 -->
+    <g transform="translate(264, 0)">
+      <rect width="122" height="66" rx="8" fill="url(#card-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">STRESS TESTS</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#a855f7">30/30</text>
+    </g>
+
+    <!-- KPI 4 -->
+    <g transform="translate(396, 0)">
+      <rect width="124" height="66" rx="8" fill="url(#card-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">EVENT TOPICS</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#f59e0b">7 KRaft</text>
+    </g>
+  </g>
+
+  <!-- Technical Highlights Row -->
+  <g transform="translate(30, 216)">
+    <text class="mono-font" font-size="11" fill="#cbd5e1">
+      <tspan fill="#00ff88">✔</tspan> EWMA z-score anomaly filter (z &gt; 2σ)
+      <tspan dx="16" fill="#00e5ff">✔</tspan> NetworkX causal DAG
+    </text>
+    <text y="20" class="mono-font" font-size="11" fill="#cbd5e1">
+      <tspan fill="#a855f7">✔</tspan> gRPC health stream over HTTP/2
+      <tspan dx="16" fill="#f59e0b">✔</tspan> pgvector + Redis cache
+    </text>
+  </g>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(30, 276)">
+    <rect width="66" height="22" rx="4" fill="#1e293b"/>
+    <text x="33" y="15" class="mono-font" font-size="11" fill="#34d399" text-anchor="middle">Kafka</text>
+
+    <rect x="74" y="0" width="60" height="22" rx="4" fill="#1e293b"/>
+    <text x="104" y="15" class="mono-font" font-size="11" fill="#38bdf8" text-anchor="middle">gRPC</text>
+
+    <rect x="142" y="0" width="70" height="22" rx="4" fill="#1e293b"/>
+    <text x="177" y="15" class="mono-font" font-size="11" fill="#c084fc" text-anchor="middle">FastAPI</text>
+
+    <rect x="220" y="0" width="80" height="22" rx="4" fill="#1e293b"/>
+    <text x="260" y="15" class="mono-font" font-size="11" fill="#fbbf24" text-anchor="middle">pgvector</text>
+
+    <rect x="308" y="0" width="56" height="22" rx="4" fill="#1e293b"/>
+    <text x="336" y="15" class="mono-font" font-size="11" fill="#cbd5e1" text-anchor="middle">Redis</text>
+
+    <rect x="372" y="0" width="68" height="22" rx="4" fill="#1e293b"/>
+    <text x="406" y="15" class="mono-font" font-size="11" fill="#cbd5e1" text-anchor="middle">Docker</text>
+
+    <rect x="448" y="0" width="72" height="22" rx="4" fill="#1e293b"/>
+    <text x="484" y="15" class="mono-font" font-size="11" fill="#cbd5e1" text-anchor="middle">React 18</text>
+  </g>
 </svg>

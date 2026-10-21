@@ -1,57 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80">
   <defs>
+    <linearGradient id="foot-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="50%" stop-color="#0c1017"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <linearGradient id="foot-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00ff88" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </linearGradient>
+
     <style>
-      @keyframes scroll {
-        0%   { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+      .mono-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
       }
-      @keyframes circuitFlow {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 0; }
+      @keyframes tickerScroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-1600px); }
+      }
+      .ticker-move {
+        animation: tickerScroll 25s linear infinite;
       }
     </style>
-    <filter id="footerGlow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="80" fill="#0d1117"/>
-  <!-- Top circuit line -->
-  <line x1="0" y1="2" x2="1200" y2="2" stroke="#00ff88" stroke-width="1.5" opacity="0.4"/>
-  <line x1="0" y1="2" x2="1200" y2="2" stroke="#00ff88" stroke-width="2"
-        stroke-dasharray="60 30" style="animation: circuitFlow 4s linear infinite;" opacity="0.6" filter="url(#footerGlow)"/>
+  <rect width="1200" height="80" fill="url(#foot-bg)"/>
+  <line x1="0" y1="2" x2="1200" y2="2" stroke="url(#foot-line)" stroke-width="2"/>
 
-  <!-- Circuit nodes on top line -->
-  <rect x="149" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
-  <rect x="299" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
-  <rect x="599" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
-  <rect x="899" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
-  <rect x="1099" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
-
-  <!-- Scrolling text container -->
-  <clipPath id="textClip">
-    <rect x="0" y="8" width="1200" height="72"/>
+  <!-- Ticker Clip -->
+  <clipPath id="foot-clip">
+    <rect x="20" y="8" width="1160" height="64"/>
   </clipPath>
 
-  <g clip-path="url(#textClip)">
-    <g style="animation: scroll 20s linear infinite; white-space:nowrap;">
-      <!-- First copy -->
-      <text x="0" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="700"
-            fill="#00ff88" letter-spacing="3" filter="url(#footerGlow)">
-        ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈
-      </text>
-      <!-- Second copy for seamless loop -->
-      <text x="1200" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="700"
-            fill="#00ff88" letter-spacing="3" filter="url(#footerGlow)">
-        ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈
+  <g clip-path="url(#foot-clip)">
+    <g class="ticker-move" transform="translate(0, 48)">
+      <text class="mono-font" font-size="13" font-weight="700" fill="#a7f3d0" letter-spacing="2">
+        <tspan fill="#00ff88">◈</tspan> END TRANSMISSION <tspan fill="#64748b">|</tspan> OPERATOR: KARTIK RAIKAR <tspan fill="#64748b">|</tspan> <tspan fill="#38bdf8">kartikraikar2005@gmail.com</tspan> <tspan fill="#64748b">|</tspan> <tspan fill="#34d399">kartikportfolio-eta.vercel.app</tspan> <tspan fill="#64748b">|</tspan> ZERO HALLUCINATIONS • SUB-SECOND MTTR • PRODUCTION-READY AI SYSTEMS
+        <tspan fill="#00ff88" dx="40">◈</tspan> END TRANSMISSION <tspan fill="#64748b">|</tspan> OPERATOR: KARTIK RAIKAR <tspan fill="#64748b">|</tspan> <tspan fill="#38bdf8">kartikraikar2005@gmail.com</tspan> <tspan fill="#64748b">|</tspan> <tspan fill="#34d399">kartikportfolio-eta.vercel.app</tspan> <tspan fill="#64748b">|</tspan> ZERO HALLUCINATIONS • SUB-SECOND MTTR • PRODUCTION-READY AI SYSTEMS
       </text>
     </g>
   </g>
-
-  <!-- Sub text -->
-  <text x="600" y="72" font-family="'Courier New', monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="2">NEURAL COMMAND CENTER v2 — kartik-012 — 2026</text>
-
-  <!-- Bottom line -->
-  <line x1="0" y1="79" x2="1200" y2="79" stroke="#00ff88" stroke-width="1" opacity="0.2"/>
 </svg>

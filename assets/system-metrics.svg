@@ -1,82 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240">
   <defs>
+    <linearGradient id="sm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="bar-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+
+    <linearGradient id="bar-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+
+    <linearGradient id="bar-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="bar-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+
     <style>
-      @keyframes fillBar1 { 0%,5% { width:0 } 30%,100% { width:380px } }
-      @keyframes fillBar2 { 0%,10% { width:0 } 35%,100% { width:380px } }
-      @keyframes fillBar3 { 0%,15% { width:0 } 40%,100% { width:373px } }
-      @keyframes fillBar4 { 0%,20% { width:0 } 45%,100% { width:358px } }
-      @keyframes fillBar5 { 0%,25% { width:0 } 50%,100% { width:380px } }
-      @keyframes fillBar6 { 0%,30% { width:0 } 55%,100% { width:0px } }
-      @keyframes counterGlow {
-        0%,100% { opacity:0.8 }
-        50% { opacity:1 }
+      .sans-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
       }
+      .mono-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+      }
+      @keyframes barGrow1 { 0% { width: 0; } 100% { width: 440px; } }
+      @keyframes barGrow2 { 0% { width: 0; } 100% { width: 440px; } }
+      @keyframes barGrow3 { 0% { width: 0; } 100% { width: 432px; } }
+      @keyframes barGrow4 { 0% { width: 0; } 100% { width: 414px; } }
+      @keyframes barGrow5 { 0% { width: 0; } 100% { width: 440px; } }
+      @keyframes barGrow6 { 0% { width: 0; } 100% { width: 440px; } }
+      .bg1 { animation: barGrow1 1.8s ease-out forwards; }
+      .bg2 { animation: barGrow2 2.0s ease-out forwards; }
+      .bg3 { animation: barGrow3 2.2s ease-out forwards; }
+      .bg4 { animation: barGrow4 2.4s ease-out forwards; }
+      .bg5 { animation: barGrow5 2.6s ease-out forwards; }
+      .bg6 { animation: barGrow6 2.8s ease-out forwards; }
     </style>
-    <filter id="mglow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="bar1clip"><rect x="770" y="38" width="380" height="14" rx="3"/></clipPath>
-    <clipPath id="bar2clip"><rect x="770" y="68" width="380" height="14" rx="3"/></clipPath>
-    <clipPath id="bar3clip"><rect x="770" y="98" width="380" height="14" rx="3"/></clipPath>
-    <clipPath id="bar4clip"><rect x="770" y="128" width="380" height="14" rx="3"/></clipPath>
-    <clipPath id="bar5clip"><rect x="770" y="158" width="380" height="14" rx="3"/></clipPath>
-    <clipPath id="bar6clip"><rect x="770" y="188" width="380" height="14" rx="3"/></clipPath>
   </defs>
 
-  <rect width="1200" height="200" fill="#0d1117" rx="8"/>
-  <rect x="2" y="2" width="1196" height="196" rx="7" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+  <rect width="1200" height="240" rx="14" fill="url(#sm-bg)"/>
+  <rect x="1" y="1" width="1198" height="238" rx="13" fill="none" stroke="#1e293b" stroke-width="1.2"/>
 
-  <!-- Header -->
-  <text x="600" y="25" font-family="'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="middle" letter-spacing="3">SYSTEM PERFORMANCE METRICS DASHBOARD</text>
-  <line x1="30" y1="32" x2="1170" y2="32" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+  <!-- Top Header Bar -->
+  <rect width="1200" height="40" rx="14" fill="#111827" fill-opacity="0.8"/>
+  <rect y="28" width="1200" height="12" fill="#111827" fill-opacity="0.8"/>
+  <line x1="0" y1="40" x2="1200" y2="40" stroke="#1f2937" stroke-width="1"/>
 
-  <!-- Row 1: Incident Correlation -->
-  <text x="35" y="52" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Incident Correlation</text>
-  <text x="235" y="52" font-family="'Courier New', monospace" font-size="11" fill="#00ff88">780ms MTTR</text>
-  <!-- Track -->
-  <rect x="350" y="42" width="380" height="12" rx="3" fill="#161b22"/>
-  <!-- Filled bar -->
-  <rect x="350" y="42" height="12" rx="3" fill="#00ff88" opacity="0.85" style="animation: fillBar1 3s ease-out forwards;"/>
-  <text x="740" y="52" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" text-anchor="end">██████████</text>
+  <g transform="translate(32, 25)">
+    <circle cx="0" cy="0" r="4" fill="#00ff88"/>
+    <text x="14" y="4" class="mono-font" font-size="11" font-weight="700" fill="#a7f3d0" letter-spacing="1.5">TELEMETRY BENCHMARKS // EMPIRICAL PRODUCTION METRICS</text>
+  </g>
 
-  <!-- Row 2: RCA Accuracy -->
-  <text x="35" y="82" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">RCA Accuracy</text>
-  <text x="235" y="82" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">100%</text>
-  <rect x="350" y="72" width="380" height="12" rx="3" fill="#161b22"/>
-  <rect x="350" y="72" height="12" rx="3" fill="#a855f7" opacity="0.85" style="animation: fillBar2 3.2s ease-out forwards;"/>
-  <text x="740" y="82" font-family="'Courier New', monospace" font-size="11" fill="#a855f7" text-anchor="end">██████████</text>
+  <!-- Left Column (3 Metrics) -->
+  <g transform="translate(40, 68)">
+    <!-- Metric 1: MTTR -->
+    <text x="0" y="14" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">Incident Correlation MTTR</text>
+    <text x="260" y="14" class="mono-font" font-size="13" font-weight="800" fill="#00ff88">0.78s (Sub-Second)</text>
+    <rect x="0" y="24" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg1" x="0" y="24" height="10" rx="5" fill="url(#bar-green)"/>
 
-  <!-- Row 3: Vector Precision -->
-  <text x="35" y="112" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Vector Precision</text>
-  <text x="235" y="112" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4">98.4%</text>
-  <rect x="350" y="102" width="380" height="12" rx="3" fill="#161b22"/>
-  <rect x="350" y="102" height="12" rx="3" fill="#06b6d4" opacity="0.85" style="animation: fillBar3 3.4s ease-out forwards;"/>
-  <text x="740" y="112" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4" text-anchor="end">█████████░</text>
+    <!-- Metric 2: Top-1 RCA -->
+    <text x="0" y="68" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">Root Cause Analysis Accuracy</text>
+    <text x="260" y="68" class="mono-font" font-size="13" font-weight="800" fill="#00e5ff">100% Top-1 Precision</text>
+    <rect x="0" y="78" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg2" x="0" y="78" height="10" rx="5" fill="url(#bar-cyan)"/>
 
-  <!-- Row 4: Cache Hit Rate -->
-  <text x="35" y="142" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Cache Hit Rate</text>
-  <text x="235" y="142" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b">94.2%</text>
-  <rect x="350" y="132" width="380" height="12" rx="3" fill="#161b22"/>
-  <rect x="350" y="132" height="12" rx="3" fill="#f59e0b" opacity="0.85" style="animation: fillBar4 3.6s ease-out forwards;"/>
-  <text x="740" y="142" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b" text-anchor="end">█████████░</text>
+    <!-- Metric 3: Vector Precision -->
+    <text x="0" y="122" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">Code-Aware Vector Precision</text>
+    <text x="260" y="122" class="mono-font" font-size="13" font-weight="800" fill="#c084fc">98.4% (AST Diffing)</text>
+    <rect x="0" y="132" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg3" x="0" y="132" height="10" rx="5" fill="url(#bar-purple)"/>
+  </g>
 
-  <!-- Row 5: Intent Accuracy -->
-  <text x="35" y="172" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Intent Accuracy</text>
-  <text x="235" y="172" font-family="'Courier New', monospace" font-size="11" fill="#00ff88">100%</text>
-  <rect x="350" y="162" width="380" height="12" rx="3" fill="#161b22"/>
-  <rect x="350" y="162" height="12" rx="3" fill="#00ff88" opacity="0.85" style="animation: fillBar5 3.8s ease-out forwards;"/>
-  <text x="740" y="172" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" text-anchor="end">██████████</text>
+  <!-- Divider -->
+  <line x1="600" y1="55" x2="600" y2="225" stroke="#1e293b" stroke-width="1"/>
 
-  <!-- Row 6: Hallucination Rate -->
-  <text x="35" y="195" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Hallucination Rate</text>
-  <text x="235" y="195" font-family="'Courier New', monospace" font-size="11" fill="#f43f5e">0.0% ✓</text>
-  <rect x="350" y="185" width="380" height="12" rx="3" fill="#161b22"/>
-  <!-- Empty bar for 0% -->
-  <text x="740" y="195" font-family="'Courier New', monospace" font-size="11" fill="#f43f5e" text-anchor="end">NONE ░░░░░░░░░░</text>
+  <!-- Right Column (3 Metrics) -->
+  <g transform="translate(640, 68)">
+    <!-- Metric 4: Redis Hit Rate -->
+    <text x="0" y="14" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">Redis Cache Hit Rate</text>
+    <text x="260" y="14" class="mono-font" font-size="13" font-weight="800" fill="#fbbf24">94.2% Hit Ratio</text>
+    <rect x="0" y="24" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg4" x="0" y="24" height="10" rx="5" fill="url(#bar-amber)"/>
 
-  <!-- Right side: summary stats -->
-  <line x1="760" y1="32" x2="760" y2="198" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
-  <text x="775" y="25" font-family="'Courier New', monospace" font-size="10" fill="#8b949e">SYSTEM SCORE</text>
-  <text x="1170" y="25" font-family="'Courier New', monospace" font-size="10" fill="#8b949e" text-anchor="end">STATUS: OPTIMAL</text>
+    <!-- Metric 5: MCP Tool Intent -->
+    <text x="0" y="68" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">MCP Tool Intent Classification</text>
+    <text x="260" y="68" class="mono-font" font-size="13" font-weight="800" fill="#00ff88">100% (20/20 Stress)</text>
+    <rect x="0" y="78" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg5" x="0" y="78" height="10" rx="5" fill="url(#bar-green)"/>
+
+    <!-- Metric 6: Zero Hallucination -->
+    <text x="0" y="122" class="sans-font" font-size="13" font-weight="700" fill="#ffffff">Hallucination Mitigation Rate</text>
+    <text x="260" y="122" class="mono-font" font-size="13" font-weight="800" fill="#00e5ff">0.0% Hallucinations</text>
+    <rect x="0" y="132" width="440" height="10" rx="5" fill="#1e293b"/>
+    <rect class="bg6" x="0" y="132" height="10" rx="5" fill="url(#bar-cyan)"/>
+  </g>
 </svg>

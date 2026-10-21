@@ -1,59 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 320" width="580" height="320">
   <defs>
+    <linearGradient id="mcp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="mcp-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="mcp-inner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d1420" stop-opacity="0.5"/>
+    </linearGradient>
+
     <style>
-      @keyframes greenGlow {
-        0%,100% { filter: drop-shadow(0 0 6px #00ff88); opacity:0.7; }
-        50% { filter: drop-shadow(0 0 18px #00ff88); opacity:1; }
+      .sans-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
       }
-      @keyframes actBlink {
-        0%,100% { opacity:1; } 50% { opacity:0.4; }
+      .mono-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
       }
     </style>
-    <filter id="gglow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="580" height="320" fill="#0d1117" rx="10"/>
-  <rect x="2" y="2" width="576" height="316" rx="9" fill="none" stroke="#00ff88" stroke-width="2"
-        style="animation: greenGlow 3s ease-in-out infinite;" filter="url(#gglow)"/>
-  <rect x="2" y="2" width="576" height="4" rx="2" fill="#00ff88" opacity="0.7"/>
+  <!-- Card Base -->
+  <rect width="580" height="320" rx="14" fill="url(#mcp-bg)"/>
+  <rect x="1" y="1" width="578" height="318" rx="13" fill="none" stroke="url(#mcp-border)" stroke-width="1.4"/>
 
-  <text x="30" y="45" font-family="'Courier New', monospace" font-size="10" fill="#8b949e" letter-spacing="2">PROJECT :: MCP-TOOLKIT</text>
-  <text x="30" y="70" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#e6edf3">GitHub MCP Toolkit</text>
+  <!-- Top Accent Beam -->
+  <rect x="1" y="1" width="578" height="3" rx="1.5" fill="#a855f7"/>
 
-  <rect x="450" y="25" width="110" height="24" rx="4" fill="#00ff88" opacity="0.15" stroke="#00ff88" stroke-width="1"/>
-  <text x="505" y="41" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" text-anchor="middle"
-        font-weight="900" style="animation: actBlink 2s ease-in-out infinite;">● ACTIVE</text>
+  <!-- Header -->
+  <g transform="translate(30, 36)">
+    <rect width="130" height="20" rx="10" fill="#3b0764" stroke="#7e22ce" stroke-width="0.8"/>
+    <text x="65" y="14" class="mono-font" font-size="10" font-weight="700" fill="#c084fc" text-anchor="middle">AGENT PROTOCOL</text>
 
-  <line x1="30" y1="85" x2="550" y2="85" stroke="#00ff88" stroke-width="0.5" opacity="0.4"/>
+    <!-- Active Badge -->
+    <g transform="translate(420, 0)">
+      <rect width="100" height="22" rx="11" fill="#4c0519" stroke="#be123c" stroke-width="0.8"/>
+      <circle cx="14" cy="11" r="3.5" fill="#f43f5e"/>
+      <text x="24" y="15" class="mono-font" font-size="10" font-weight="800" fill="#fda4af">ACTIVE</text>
+    </g>
 
-  <text x="30" y="110" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">PERFORMANCE METRICS</text>
-  <g font-family="'Courier New', monospace" font-size="13">
-    <text x="30" y="132" fill="#00ff88">🎯 100% Intent Accuracy</text>
-    <text x="30" y="155" fill="#06b6d4">🛡️ 20 Adversarial Tests Passed</text>
-    <text x="30" y="178" fill="#a855f7">🔄 Saga Pattern Execution</text>
-  </g>
-
-  <line x1="30" y1="195" x2="550" y2="195" stroke="#00ff88" stroke-width="0.5" opacity="0.4"/>
-
-  <text x="30" y="217" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">TECH STACK</text>
-  <g font-family="'Courier New', monospace" font-size="12">
-    <text x="30" y="240">
-      <tspan fill="#00ff88">MCP Protocol</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#06b6d4">Saga Pattern</tspan>
-    </text>
-    <text x="30" y="263">
-      <tspan fill="#a855f7">FastAPI</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#f59e0b">Docker</tspan>
-      <tspan fill="#8b949e"> · </tspan>
-      <tspan fill="#00ff88">GitHub API</tspan>
+    <text x="0" y="52" class="sans-font" font-size="24" font-weight="900" fill="#ffffff">GitHub MCP Toolkit</text>
+    <text x="0" y="74" class="sans-font" font-size="12" font-weight="500" fill="#94a3b8">
+      Model Context Protocol Server for Resilient Agentic Multi-Step Workflows
     </text>
   </g>
 
-  <line x1="30" y1="278" x2="550" y2="278" stroke="#00ff88" stroke-width="0.5" opacity="0.4"/>
-  <text x="30" y="298" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Fault-tolerant MCP server with saga-based distributed operations</text>
+  <!-- 4 Metrics KPI Grid -->
+  <g transform="translate(30, 130)">
+    <!-- KPI 1 -->
+    <rect width="122" height="66" rx="8" fill="url(#mcp-inner)" stroke="#1e293b" stroke-width="1"/>
+    <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">INTENT ACCURACY</text>
+    <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#00ff88">100%</text>
+
+    <!-- KPI 2 -->
+    <g transform="translate(132, 0)">
+      <rect width="122" height="66" rx="8" fill="url(#mcp-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">ADVERSARIAL</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#00e5ff">20/20</text>
+    </g>
+
+    <!-- KPI 3 -->
+    <g transform="translate(264, 0)">
+      <rect width="122" height="66" rx="8" fill="url(#mcp-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">TRANSACTIONS</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#a855f7">Saga</text>
+    </g>
+
+    <!-- KPI 4 -->
+    <g transform="translate(396, 0)">
+      <rect width="124" height="66" rx="8" fill="url(#mcp-inner)" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="24" class="sans-font" font-size="11" font-weight="600" fill="#64748b">RETRY LOGIC</text>
+      <text x="14" y="50" class="mono-font" font-size="19" font-weight="900" fill="#f43f5e">Circuit</text>
+    </g>
+  </g>
+
+  <!-- Technical Highlights Row -->
+  <g transform="translate(30, 216)">
+    <text class="mono-font" font-size="11" fill="#cbd5e1">
+      <tspan fill="#a855f7">✔</tspan> Distributed Saga compensating rollbacks
+      <tspan dx="16" fill="#00ff88">✔</tspan> Model Context Protocol
+    </text>
+    <text y="20" class="mono-font" font-size="11" fill="#cbd5e1">
+      <tspan fill="#00e5ff">✔</tspan> Circuit breaker with exponential backoff
+      <tspan dx="16" fill="#f59e0b">✔</tspan> Claude &amp; Cursor client
+    </text>
+  </g>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(30, 276)">
+    <rect width="90" height="22" rx="4" fill="#1e293b"/>
+    <text x="45" y="15" class="mono-font" font-size="11" fill="#c084fc" text-anchor="middle">MCP Spec</text>
+
+    <rect x="98" y="0" width="70" height="22" rx="4" fill="#1e293b"/>
+    <text x="133" y="15" class="mono-font" font-size="11" fill="#34d399" text-anchor="middle">FastAPI</text>
+
+    <rect x="176" y="0" width="80" height="22" rx="4" fill="#1e293b"/>
+    <text x="216" y="15" class="mono-font" font-size="11" fill="#38bdf8" text-anchor="middle">Pydantic</text>
+
+    <rect x="264" y="0" width="86" height="22" rx="4" fill="#1e293b"/>
+    <text x="307" y="15" class="mono-font" font-size="11" fill="#fbbf24" text-anchor="middle">Saga Engine</text>
+
+    <rect x="358" y="0" width="68" height="22" rx="4" fill="#1e293b"/>
+    <text x="392" y="15" class="mono-font" font-size="11" fill="#cbd5e1" text-anchor="middle">Docker</text>
+
+    <rect x="434" y="0" width="80" height="22" rx="4" fill="#1e293b"/>
+    <text x="474" y="15" class="mono-font" font-size="11" fill="#cbd5e1" text-anchor="middle">GitHub API</text>
+  </g>
 </svg>

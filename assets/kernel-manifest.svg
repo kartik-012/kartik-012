@@ -1,73 +1,117 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
   <defs>
+    <linearGradient id="manifest-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="m-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161e2e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0d1420" stop-opacity="0.4"/>
+    </linearGradient>
+
     <style>
-      @keyframes borderGlow {
-        0%,100% { opacity:0.5; }
-        50% { opacity:1; }
+      .sans-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
       }
-      @keyframes statusBlink {
-        0%,100% { opacity:1; fill:#00ff88; }
-        49% { opacity:1; fill:#00ff88; }
-        50% { opacity:0.3; }
-        99% { opacity:0.3; }
-      }
-      @keyframes scanH {
-        0% { transform:translateX(-100%); }
-        100% { transform:translateX(100%); }
+      .mono-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
       }
     </style>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff88"/>
-      <stop offset="50%" stop-color="#06b6d4"/>
-      <stop offset="100%" stop-color="#a855f7"/>
-    </linearGradient>
   </defs>
 
-  <rect width="1200" height="200" fill="#0d1117"/>
-  <!-- Animated border -->
-  <rect x="2" y="2" width="1196" height="196" rx="6" fill="none"
-        stroke="url(#borderGrad)" stroke-width="2"
-        style="animation: borderGlow 3s ease-in-out infinite;" filter="url(#glow2)"/>
-  <!-- Inner lines -->
-  <line x1="30" y1="50" x2="1170" y2="50" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
-  <line x1="30" y1="150" x2="1170" y2="150" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
-  <!-- Vertical dividers -->
-  <line x1="300" y1="15" x2="300" y2="185" stroke="#161b22" stroke-width="1"/>
-  <line x1="750" y1="15" x2="750" y2="185" stroke="#161b22" stroke-width="1"/>
+  <!-- Container Base -->
+  <rect width="1200" height="200" rx="14" fill="url(#manifest-bg)"/>
+  <rect x="1" y="1" width="1198" height="198" rx="13" fill="none" stroke="url(#m-border)" stroke-width="1.2"/>
 
-  <!-- Header -->
-  <text x="600" y="30" font-family="'Courier New', monospace" font-size="11" fill="#8b949e" text-anchor="middle" letter-spacing="3">KERNEL MANIFEST — SYSTEM IDENTIFICATION</text>
+  <!-- Top Header Bar -->
+  <rect width="1200" height="38" rx="14" fill="#111827" fill-opacity="0.8"/>
+  <rect y="26" width="1200" height="12" fill="#111827" fill-opacity="0.8"/>
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#1f2937" stroke-width="1"/>
 
-  <!-- Left panel: identity -->
-  <text x="40" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">NAME</text>
-  <text x="40" y="95" font-family="'Courier New', monospace" font-size="22" font-weight="900" fill="#00ff88" letter-spacing="3" filter="url(#glow2)">KARTIK RAIKAR</text>
-  <text x="40" y="118" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">ROLE</text>
-  <text x="40" y="135" font-family="'Courier New', monospace" font-size="14" fill="#06b6d4">AI Systems Engineer</text>
-  <text x="40" y="158" font-family="'Courier New', monospace" font-size="10" fill="#8b949e">LOCATION</text>
-  <text x="40" y="174" font-family="'Courier New', monospace" font-size="12" fill="#a855f7">📍 Belagavi, India</text>
+  <g transform="translate(32, 24)">
+    <circle cx="0" cy="0" r="4" fill="#00ff88"/>
+    <text x="14" y="4" class="mono-font" font-size="11" font-weight="700" fill="#a7f3d0" letter-spacing="1.5">KERNEL MANIFEST // SYSTEM SPECIFICATIONS</text>
+  </g>
 
-  <!-- Middle panel: stack -->
-  <text x="320" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">STACK</text>
-  <text x="320" y="95" font-family="'Courier New', monospace" font-size="12" fill="#00ff88">Python · FastAPI · Kafka</text>
-  <text x="320" y="115" font-family="'Courier New', monospace" font-size="12" fill="#06b6d4">gRPC · PostgreSQL · Redis</text>
-  <text x="320" y="135" font-family="'Courier New', monospace" font-size="12" fill="#a855f7">Docker · pgvector · Qdrant</text>
-  <text x="320" y="158" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">EDUCATION</text>
-  <text x="320" y="174" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Final Year CS — AI &amp; ML Specialization</text>
+  <g transform="translate(1030, 24)">
+    <rect x="0" y="-12" width="138" height="22" rx="11" fill="#065f46" fill-opacity="0.4" stroke="#059669" stroke-width="0.8"/>
+    <circle cx="14" cy="-1" r="3" fill="#34d399"/>
+    <text x="24" y="3" class="mono-font" font-size="10" font-weight="700" fill="#34d399">STATUS: ACTIVE</text>
+  </g>
 
-  <!-- Right panel: status -->
-  <text x="770" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">STATUS</text>
-  <text x="770" y="100" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#00ff88"
-        style="animation: statusBlink 2s steps(1) infinite;" filter="url(#glow2)">● ACTIVE</text>
-  <text x="770" y="125" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">FOCUS</text>
-  <text x="770" y="143" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">AI Agent Architecture</text>
-  <text x="770" y="160" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">RAG · AIOps · MCP Protocol</text>
-  <text x="770" y="177" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b">Open to: Internships &amp; Collaborations</text>
+  <!-- 3 Main Columns / Panels -->
+  <!-- COLUMN 1: IDENTITY -->
+  <g transform="translate(32, 54)">
+    <rect width="350" height="130" rx="10" fill="url(#panel-bg)" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono-font" font-size="10" font-weight="600" fill="#64748b" letter-spacing="1.5">OPERATOR IDENTITY</text>
+    <text x="20" y="56" class="sans-font" font-size="22" font-weight="900" fill="#ffffff">Kartik Raikar</text>
+    <text x="20" y="78" class="sans-font" font-size="13" font-weight="700" fill="#38bdf8">AI Systems &amp; Backend Engineer</text>
+    <g transform="translate(20, 96)">
+      <rect width="112" height="20" rx="4" fill="#1e293b"/>
+      <text x="10" y="14" class="mono-font" font-size="10" fill="#94a3b8">📍 Belagavi, IN</text>
+      <rect x="120" y="0" width="130" height="20" rx="4" fill="#1e293b"/>
+      <text x="130" y="14" class="mono-font" font-size="10" fill="#34d399">⚡ Final Year B.E.</text>
+    </g>
+  </g>
 
-  <!-- Corner ID -->
-  <text x="15" y="195" font-family="monospace" font-size="9" fill="#00ff88" opacity="0.4">KARTIK-012::MANIFEST-v2</text>
-  <text x="1185" y="195" font-family="monospace" font-size="9" fill="#00ff88" opacity="0.4" text-anchor="end">2026.AI.ML</text>
+  <!-- COLUMN 2: TECH STACK FABRIC -->
+  <g transform="translate(402, 54)">
+    <rect width="410" height="130" rx="10" fill="url(#panel-bg)" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono-font" font-size="10" font-weight="600" fill="#64748b" letter-spacing="1.5">DISTRIBUTED &amp; AI RUNTIME</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(20, 44)">
+      <rect width="68" height="22" rx="4" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.8" stroke-opacity="0.3"/>
+      <text x="34" y="15" class="mono-font" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle">Python</text>
+
+      <rect x="76" y="0" width="75" height="22" rx="4" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-width="0.8" stroke-opacity="0.3"/>
+      <text x="113" y="15" class="mono-font" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">FastAPI</text>
+
+      <rect x="159" y="0" width="102" height="22" rx="4" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.3"/>
+      <text x="210" y="15" class="mono-font" font-size="11" font-weight="600" fill="#c084fc" text-anchor="middle">Kafka KRaft</text>
+
+      <rect x="269" y="0" width="88" height="22" rx="4" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.3"/>
+      <text x="313" y="15" class="mono-font" font-size="11" font-weight="600" fill="#fbbf24" text-anchor="middle">gRPC HTTP/2</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(20, 74)">
+      <rect width="90" height="22" rx="4" fill="#1e293b"/>
+      <text x="45" y="15" class="mono-font" font-size="11" fill="#e2e8f0" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="98" y="0" width="76" height="22" rx="4" fill="#1e293b"/>
+      <text x="136" y="15" class="mono-font" font-size="11" fill="#e2e8f0" text-anchor="middle">pgvector</text>
+
+      <rect x="182" y="0" width="62" height="22" rx="4" fill="#1e293b"/>
+      <text x="213" y="15" class="mono-font" font-size="11" fill="#e2e8f0" text-anchor="middle">Redis</text>
+
+      <rect x="252" y="0" width="66" height="22" rx="4" fill="#1e293b"/>
+      <text x="285" y="15" class="mono-font" font-size="11" fill="#e2e8f0" text-anchor="middle">Docker</text>
+
+      <rect x="326" y="0" width="58" height="22" rx="4" fill="#1e293b"/>
+      <text x="355" y="15" class="mono-font" font-size="11" fill="#e2e8f0" text-anchor="middle">RAG</text>
+    </g>
+
+    <text x="20" y="118" class="mono-font" font-size="10" fill="#64748b">ARCHITECTURE: Clean Architecture • Event-Driven • Saga Pattern</text>
+  </g>
+
+  <!-- COLUMN 3: CREDENTIALS & LEADERSHIP -->
+  <g transform="translate(832, 54)">
+    <rect width="336" height="130" rx="10" fill="url(#panel-bg)" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono-font" font-size="10" font-weight="600" fill="#64748b" letter-spacing="1.5">CREDENTIALS &amp; ROLES</text>
+
+    <g transform="translate(20, 42)">
+      <text x="0" y="14" class="sans-font" font-size="12" font-weight="700" fill="#ffffff">🏆 Oracle Cloud AI Certified</text>
+      <text x="0" y="34" class="sans-font" font-size="12" font-weight="700" fill="#ffffff">🏆 AWS Machine Learning Certified</text>
+      <text x="0" y="54" class="sans-font" font-size="12" font-weight="700" fill="#34d399">👥 Vice President — AI &amp; ML Dept (300+)</text>
+      <text x="0" y="74" class="sans-font" font-size="11" font-weight="500" fill="#94a3b8">🎓 B.E. Computer Science (AI &amp; ML)</text>
+    </g>
+  </g>
 </svg>
