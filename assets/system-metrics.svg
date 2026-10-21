@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <style>
+      @keyframes fillBar1 { 0%,5% { width:0 } 30%,100% { width:380px } }
+      @keyframes fillBar2 { 0%,10% { width:0 } 35%,100% { width:380px } }
+      @keyframes fillBar3 { 0%,15% { width:0 } 40%,100% { width:373px } }
+      @keyframes fillBar4 { 0%,20% { width:0 } 45%,100% { width:358px } }
+      @keyframes fillBar5 { 0%,25% { width:0 } 50%,100% { width:380px } }
+      @keyframes fillBar6 { 0%,30% { width:0 } 55%,100% { width:0px } }
+      @keyframes counterGlow {
+        0%,100% { opacity:0.8 }
+        50% { opacity:1 }
+      }
+    </style>
+    <filter id="mglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="bar1clip"><rect x="770" y="38" width="380" height="14" rx="3"/></clipPath>
+    <clipPath id="bar2clip"><rect x="770" y="68" width="380" height="14" rx="3"/></clipPath>
+    <clipPath id="bar3clip"><rect x="770" y="98" width="380" height="14" rx="3"/></clipPath>
+    <clipPath id="bar4clip"><rect x="770" y="128" width="380" height="14" rx="3"/></clipPath>
+    <clipPath id="bar5clip"><rect x="770" y="158" width="380" height="14" rx="3"/></clipPath>
+    <clipPath id="bar6clip"><rect x="770" y="188" width="380" height="14" rx="3"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="200" fill="#0d1117" rx="8"/>
+  <rect x="2" y="2" width="1196" height="196" rx="7" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.3"/>
+
+  <!-- Header -->
+  <text x="600" y="25" font-family="'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="middle" letter-spacing="3">SYSTEM PERFORMANCE METRICS DASHBOARD</text>
+  <line x1="30" y1="32" x2="1170" y2="32" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 1: Incident Correlation -->
+  <text x="35" y="52" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Incident Correlation</text>
+  <text x="235" y="52" font-family="'Courier New', monospace" font-size="11" fill="#00ff88">780ms MTTR</text>
+  <!-- Track -->
+  <rect x="350" y="42" width="380" height="12" rx="3" fill="#161b22"/>
+  <!-- Filled bar -->
+  <rect x="350" y="42" height="12" rx="3" fill="#00ff88" opacity="0.85" style="animation: fillBar1 3s ease-out forwards;"/>
+  <text x="740" y="52" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" text-anchor="end">██████████</text>
+
+  <!-- Row 2: RCA Accuracy -->
+  <text x="35" y="82" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">RCA Accuracy</text>
+  <text x="235" y="82" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">100%</text>
+  <rect x="350" y="72" width="380" height="12" rx="3" fill="#161b22"/>
+  <rect x="350" y="72" height="12" rx="3" fill="#a855f7" opacity="0.85" style="animation: fillBar2 3.2s ease-out forwards;"/>
+  <text x="740" y="82" font-family="'Courier New', monospace" font-size="11" fill="#a855f7" text-anchor="end">██████████</text>
+
+  <!-- Row 3: Vector Precision -->
+  <text x="35" y="112" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Vector Precision</text>
+  <text x="235" y="112" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4">98.4%</text>
+  <rect x="350" y="102" width="380" height="12" rx="3" fill="#161b22"/>
+  <rect x="350" y="102" height="12" rx="3" fill="#06b6d4" opacity="0.85" style="animation: fillBar3 3.4s ease-out forwards;"/>
+  <text x="740" y="112" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4" text-anchor="end">█████████░</text>
+
+  <!-- Row 4: Cache Hit Rate -->
+  <text x="35" y="142" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Cache Hit Rate</text>
+  <text x="235" y="142" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b">94.2%</text>
+  <rect x="350" y="132" width="380" height="12" rx="3" fill="#161b22"/>
+  <rect x="350" y="132" height="12" rx="3" fill="#f59e0b" opacity="0.85" style="animation: fillBar4 3.6s ease-out forwards;"/>
+  <text x="740" y="142" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b" text-anchor="end">█████████░</text>
+
+  <!-- Row 5: Intent Accuracy -->
+  <text x="35" y="172" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Intent Accuracy</text>
+  <text x="235" y="172" font-family="'Courier New', monospace" font-size="11" fill="#00ff88">100%</text>
+  <rect x="350" y="162" width="380" height="12" rx="3" fill="#161b22"/>
+  <rect x="350" y="162" height="12" rx="3" fill="#00ff88" opacity="0.85" style="animation: fillBar5 3.8s ease-out forwards;"/>
+  <text x="740" y="172" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" text-anchor="end">██████████</text>
+
+  <!-- Row 6: Hallucination Rate -->
+  <text x="35" y="195" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">Hallucination Rate</text>
+  <text x="235" y="195" font-family="'Courier New', monospace" font-size="11" fill="#f43f5e">0.0% ✓</text>
+  <rect x="350" y="185" width="380" height="12" rx="3" fill="#161b22"/>
+  <!-- Empty bar for 0% -->
+  <text x="740" y="195" font-family="'Courier New', monospace" font-size="11" fill="#f43f5e" text-anchor="end">NONE ░░░░░░░░░░</text>
+
+  <!-- Right side: summary stats -->
+  <line x1="760" y1="32" x2="760" y2="198" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+  <text x="775" y="25" font-family="'Courier New', monospace" font-size="10" fill="#8b949e">SYSTEM SCORE</text>
+  <text x="1170" y="25" font-family="'Courier New', monospace" font-size="10" fill="#8b949e" text-anchor="end">STATUS: OPTIMAL</text>
+</svg>
