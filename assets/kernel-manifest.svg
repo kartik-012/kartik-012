@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%,100% { opacity:0.5; }
+        50% { opacity:1; }
+      }
+      @keyframes statusBlink {
+        0%,100% { opacity:1; fill:#00ff88; }
+        49% { opacity:1; fill:#00ff88; }
+        50% { opacity:0.3; }
+        99% { opacity:0.3; }
+      }
+      @keyframes scanH {
+        0% { transform:translateX(-100%); }
+        100% { transform:translateX(100%); }
+      }
+    </style>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="#0d1117"/>
+  <!-- Animated border -->
+  <rect x="2" y="2" width="1196" height="196" rx="6" fill="none"
+        stroke="url(#borderGrad)" stroke-width="2"
+        style="animation: borderGlow 3s ease-in-out infinite;" filter="url(#glow2)"/>
+  <!-- Inner lines -->
+  <line x1="30" y1="50" x2="1170" y2="50" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  <line x1="30" y1="150" x2="1170" y2="150" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  <!-- Vertical dividers -->
+  <line x1="300" y1="15" x2="300" y2="185" stroke="#161b22" stroke-width="1"/>
+  <line x1="750" y1="15" x2="750" y2="185" stroke="#161b22" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="600" y="30" font-family="'Courier New', monospace" font-size="11" fill="#8b949e" text-anchor="middle" letter-spacing="3">KERNEL MANIFEST — SYSTEM IDENTIFICATION</text>
+
+  <!-- Left panel: identity -->
+  <text x="40" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">NAME</text>
+  <text x="40" y="95" font-family="'Courier New', monospace" font-size="22" font-weight="900" fill="#00ff88" letter-spacing="3" filter="url(#glow2)">KARTIK RAIKAR</text>
+  <text x="40" y="118" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">ROLE</text>
+  <text x="40" y="135" font-family="'Courier New', monospace" font-size="14" fill="#06b6d4">AI Systems Engineer</text>
+  <text x="40" y="158" font-family="'Courier New', monospace" font-size="10" fill="#8b949e">LOCATION</text>
+  <text x="40" y="174" font-family="'Courier New', monospace" font-size="12" fill="#a855f7">📍 Belagavi, India</text>
+
+  <!-- Middle panel: stack -->
+  <text x="320" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">STACK</text>
+  <text x="320" y="95" font-family="'Courier New', monospace" font-size="12" fill="#00ff88">Python · FastAPI · Kafka</text>
+  <text x="320" y="115" font-family="'Courier New', monospace" font-size="12" fill="#06b6d4">gRPC · PostgreSQL · Redis</text>
+  <text x="320" y="135" font-family="'Courier New', monospace" font-size="12" fill="#a855f7">Docker · pgvector · Qdrant</text>
+  <text x="320" y="158" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">EDUCATION</text>
+  <text x="320" y="174" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">Final Year CS — AI &amp; ML Specialization</text>
+
+  <!-- Right panel: status -->
+  <text x="770" y="75" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">STATUS</text>
+  <text x="770" y="100" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#00ff88"
+        style="animation: statusBlink 2s steps(1) infinite;" filter="url(#glow2)">● ACTIVE</text>
+  <text x="770" y="125" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">FOCUS</text>
+  <text x="770" y="143" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">AI Agent Architecture</text>
+  <text x="770" y="160" font-family="'Courier New', monospace" font-size="11" fill="#e6edf3">RAG · AIOps · MCP Protocol</text>
+  <text x="770" y="177" font-family="'Courier New', monospace" font-size="11" fill="#f59e0b">Open to: Internships &amp; Collaborations</text>
+
+  <!-- Corner ID -->
+  <text x="15" y="195" font-family="monospace" font-size="9" fill="#00ff88" opacity="0.4">KARTIK-012::MANIFEST-v2</text>
+  <text x="1185" y="195" font-family="monospace" font-size="9" fill="#00ff88" opacity="0.4" text-anchor="end">2026.AI.ML</text>
+</svg>
