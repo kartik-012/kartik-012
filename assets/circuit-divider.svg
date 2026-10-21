@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    <style>
+      @keyframes flow1 {
+        0% { stroke-dashoffset: 300; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes flow2 {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 300; }
+      }
+      @keyframes nodePulse {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="40" fill="#0d1117"/>
+  <!-- Main horizontal trace -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#00ff88" stroke-width="1.5" opacity="0.3"/>
+  <!-- Animated flowing segment -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#00ff88" stroke-width="2"
+        stroke-dasharray="80 40" style="animation: flow1 4s linear infinite;"/>
+  <!-- Second layer -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#06b6d4" stroke-width="1"
+        stroke-dasharray="40 120" style="animation: flow2 6s linear infinite;" opacity="0.5"/>
+
+  <!-- Circuit nodes / junctions -->
+  <g style="animation: nodePulse 2s ease-in-out infinite;" fill="#f59e0b">
+    <rect x="99" y="15" width="6" height="10" rx="1"/>
+    <rect x="249" y="15" width="6" height="10" rx="1"/>
+    <rect x="399" y="15" width="6" height="10" rx="1"/>
+    <rect x="599" y="15" width="6" height="10" rx="1"/>
+    <rect x="799" y="15" width="6" height="10" rx="1"/>
+    <rect x="949" y="15" width="6" height="10" rx="1"/>
+    <rect x="1099" y="15" width="6" height="10" rx="1"/>
+  </g>
+  <!-- Corner dots -->
+  <circle cx="10" cy="20" r="4" fill="#00ff88" opacity="0.8"/>
+  <circle cx="1190" cy="20" r="4" fill="#00ff88" opacity="0.8"/>
+
+  <!-- Branch traces up/down -->
+  <g stroke="#00ff88" stroke-width="1" fill="none" opacity="0.4">
+    <polyline points="250,20 250,8 290,8"/>
+    <polyline points="600,20 600,5 640,5"/>
+    <polyline points="950,20 950,8 990,8"/>
+    <polyline points="400,20 400,32 440,32"/>
+    <polyline points="800,20 800,32 840,32"/>
+  </g>
+  <!-- Branch endpoint dots -->
+  <g fill="#f59e0b" opacity="0.7">
+    <circle cx="290" cy="8" r="2.5"/>
+    <circle cx="640" cy="5" r="2.5"/>
+    <circle cx="990" cy="8" r="2.5"/>
+    <circle cx="440" cy="32" r="2.5"/>
+    <circle cx="840" cy="32" r="2.5"/>
+  </g>
+</svg>
