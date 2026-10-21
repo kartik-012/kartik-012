@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80">
+  <defs>
+    <style>
+      @keyframes scroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      @keyframes circuitFlow {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+    </style>
+    <filter id="footerGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="80" fill="#0d1117"/>
+  <!-- Top circuit line -->
+  <line x1="0" y1="2" x2="1200" y2="2" stroke="#00ff88" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="2" x2="1200" y2="2" stroke="#00ff88" stroke-width="2"
+        stroke-dasharray="60 30" style="animation: circuitFlow 4s linear infinite;" opacity="0.6" filter="url(#footerGlow)"/>
+
+  <!-- Circuit nodes on top line -->
+  <rect x="149" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
+  <rect x="299" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
+  <rect x="599" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
+  <rect x="899" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
+  <rect x="1099" y="-1" width="6" height="6" rx="1" fill="#f59e0b" opacity="0.8"/>
+
+  <!-- Scrolling text container -->
+  <clipPath id="textClip">
+    <rect x="0" y="8" width="1200" height="72"/>
+  </clipPath>
+
+  <g clip-path="url(#textClip)">
+    <g style="animation: scroll 20s linear infinite; white-space:nowrap;">
+      <!-- First copy -->
+      <text x="0" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="700"
+            fill="#00ff88" letter-spacing="3" filter="url(#footerGlow)">
+        ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈
+      </text>
+      <!-- Second copy for seamless loop -->
+      <text x="1200" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="700"
+            fill="#00ff88" letter-spacing="3" filter="url(#footerGlow)">
+        ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈ END TRANSMISSION — kartik-012 · kartikraikar2005@gmail.com · kartikportfolio-eta.vercel.app · AI Systems Engineer · GenAI · Distributed Backend ◈
+      </text>
+    </g>
+  </g>
+
+  <!-- Sub text -->
+  <text x="600" y="72" font-family="'Courier New', monospace" font-size="9" fill="#8b949e" text-anchor="middle" letter-spacing="2">NEURAL COMMAND CENTER v2 — kartik-012 — 2026</text>
+
+  <!-- Bottom line -->
+  <line x1="0" y1="79" x2="1200" y2="79" stroke="#00ff88" stroke-width="1" opacity="0.2"/>
+</svg>
