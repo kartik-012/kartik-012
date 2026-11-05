@@ -6,7 +6,7 @@
   
 <img src="./assets/neural-banner.svg" width="100%" alt="Kartik Raikar — AI Systems Engineer" />
  
-</div> 
+</div>
 
 <br/>
 
