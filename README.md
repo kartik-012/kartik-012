@@ -47,6 +47,7 @@
 <img src="https://img.shields.io/badge/AWS-ML_CERTIFIED-f59e0b?style=flat-square&logo=amazon-web-services&logoColor=f59e0b&labelColor=0d1117" />
 
 </div>
+
 <br/>
 
 <img src="./assets/circuit-divider.svg" width="100%" alt="" />
